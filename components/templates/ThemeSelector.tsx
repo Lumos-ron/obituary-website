@@ -23,27 +23,41 @@ export function ThemeSelector({ selected, onSelect }: ThemeSelectorProps) {
           }`}
         >
           {/* Theme preview swatch */}
-          <div className={`h-16 ${theme.bgClass} relative`}>
+          <div
+            className="relative h-16"
+            style={{ background: theme.bgStyle }}
+          >
             {/* Inner border decoration */}
-            <div className={`absolute inset-1 border ${theme.borderDecor} opacity-50`} />
+            <div
+              className="absolute inset-1 opacity-50"
+              style={{ border: `1px solid ${theme.borderColor}` }}
+            />
             {/* Center photo indicator */}
             <div className="absolute inset-0 flex items-center justify-center">
               <div
-                className={`flex h-6 w-6 items-center justify-center border ${theme.borderDecor} ${
-                  theme.id === "dark-elegant" ? "bg-gray-700" : "bg-white/70"
-                } ${
+                className={`flex h-6 w-6 items-center justify-center ${
                   theme.photoFrame === "circle"
                     ? "rounded-full"
                     : theme.photoFrame === "oval"
                     ? "rounded-[50%]"
                     : "rounded-md"
                 }`}
+                style={{
+                  border: `1px solid ${theme.borderColor}`,
+                  backgroundColor: theme.id === "dark-elegant" ? "#374151" : "rgba(255,255,255,0.7)",
+                }}
               >
-                <div className={`h-1 w-1 rounded-full ${theme.accentClass}`} />
+                <div
+                  className="h-1 w-1 rounded-full"
+                  style={{ backgroundColor: theme.accentColor }}
+                />
               </div>
             </div>
             {/* Accent line */}
-            <div className={`absolute bottom-1 left-1/2 h-px w-8 -translate-x-1/2 ${theme.accentClass} opacity-40`} />
+            <div
+              className="absolute bottom-1 left-1/2 h-px w-8 -translate-x-1/2 opacity-40"
+              style={{ backgroundColor: theme.accentColor }}
+            />
           </div>
 
           {/* Theme name */}

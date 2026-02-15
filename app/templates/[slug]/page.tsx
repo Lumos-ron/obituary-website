@@ -56,42 +56,8 @@ export function generateStaticParams() {
   return [...categoryParams, ...templateParams];
 }
 
-export default async function TemplateSlugPage({ params }: Props) {
-  const { slug } = await params;
-
-  // Handle category pages
-  if (isCategory(slug)) {
-    const templates = getTemplatesByCategory(slug);
-    const label = CATEGORY_LABELS[slug];
-
-    return (
-      <div className="mx-auto max-w-7xl px-4 py-10 sm:py-16">
-        <div className="mb-10 text-center">
-          <h1 className="font-serif text-3xl font-bold text-primary sm:text-4xl">
-            {label} Obituary Templates
-          </h1>
-          <p className="mt-3 text-muted-foreground">
-            Thoughtfully crafted templates to help you write a meaningful obituary
-            for your {label.toLowerCase()}.
-          </p>
-        </div>
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {templates.map((template) => (
-            <TemplateCard key={template.id} template={template} />
-          ))}
-        </div>
-      </div>
-    );
-  }
-
-  // Handle individual template pages
-  const template = getTemplateById(slug);
-  if (!template) notFound();
-
-  const related = getRelatedTemplates(template);
-  const themeId = getTemplateTheme(template.id);
-  const themeConfig = VISUAL_THEMES[themeId];
-  const previewText = template.content
+function fillPreviewText(content: string) {
+  return content
     .replace(/\{\{fullName\}\}/g, "Margaret Elizabeth Johnson")
     .replace(/\{\{firstName\}\}/g, "Margaret")
     .replace(/\{\{age\}\}/g, "78")
@@ -113,6 +79,42 @@ export default async function TemplateSlugPage({ params }: Props) {
       "A memorial service will be held Saturday, January 15 at 2:00 PM at Grace Community Church."
     )
     .replace(/\{\{[^}]+\}\}/g, "___");
+}
+
+// Category page component
+function CategoryPage({ slug }: { slug: TemplateCategory }) {
+  const templates = getTemplatesByCategory(slug);
+  const label = CATEGORY_LABELS[slug];
+
+  return (
+    <div className="mx-auto max-w-7xl px-4 py-10 sm:py-16">
+      <div className="mb-10 text-center">
+        <h1 className="font-serif text-3xl font-bold text-primary sm:text-4xl">
+          {label} Obituary Templates
+        </h1>
+        <p className="mt-3 text-muted-foreground">
+          Thoughtfully crafted templates to help you write a meaningful obituary
+          for your {label.toLowerCase()}.
+        </p>
+      </div>
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {templates.map((template) => (
+          <TemplateCard key={template.id} template={template} />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// Template detail page component
+function TemplateDetailPage({ slug }: { slug: string }) {
+  const template = getTemplateById(slug);
+  if (!template) notFound();
+
+  const related = getRelatedTemplates(template);
+  const themeId = getTemplateTheme(template.id);
+  const themeConfig = VISUAL_THEMES[themeId];
+  const previewText = fillPreviewText(template.content);
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-10 sm:py-16">
@@ -192,4 +194,14 @@ export default async function TemplateSlugPage({ params }: Props) {
       </div>
     </div>
   );
+}
+
+export default async function TemplateSlugPage({ params }: Props) {
+  const { slug } = await params;
+
+  if (isCategory(slug)) {
+    return <CategoryPage key={slug} slug={slug} />;
+  }
+
+  return <TemplateDetailPage key={slug} slug={slug} />;
 }

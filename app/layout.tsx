@@ -68,8 +68,8 @@ export default function RootLayout({
         <Footer />
         <Script
           defer
-          src="https://umami.lumoss.top/script.js"
-          data-website-id="906ae330-1023-49a8-810f-59c32e6a2fa8"
+          src="https://umami2.lumoss.top/script.js"
+          data-website-id="66a9b94a-4ce2-4c71-b53e-058b3633812f"
           strategy="afterInteractive"
         />
       </body>

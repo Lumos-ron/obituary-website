@@ -6,20 +6,20 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { Badge } from "@/components/ui/badge";
 import {
   ObituaryData,
   TemplateCategory,
-  TemplateStyle,
-  FamilyMember,
+  VisualTheme,
   CATEGORY_LABELS,
   HOBBY_OPTIONS,
   TRAIT_OPTIONS,
   FAMILY_RELATIONSHIP_OPTIONS,
 } from "@/lib/types";
 import { generateObituaryText } from "@/lib/templates";
+import { PhotoUpload } from "@/components/templates/PhotoUpload";
+import { ThemeSelector } from "@/components/templates/ThemeSelector";
 
-const TOTAL_STEPS = 6;
+const TOTAL_STEPS = 7;
 
 const defaultData: ObituaryData = {
   relationship: "general",
@@ -53,6 +53,8 @@ const defaultData: ObituaryData = {
 export function CreatePageClient() {
   const router = useRouter();
   const [step, setStep] = useState(1);
+  const [photo, setPhoto] = useState<string | null>(null);
+  const [selectedTheme, setSelectedTheme] = useState<VisualTheme>("soft-floral");
   const [data, setData] = useState<ObituaryData>(() => {
     if (typeof window !== "undefined") {
       const saved = localStorage.getItem("obituary-draft");
@@ -83,6 +85,13 @@ export function CreatePageClient() {
     if (typeof window !== "undefined") {
       localStorage.setItem("obituary-content", text);
       localStorage.setItem("obituary-data", JSON.stringify(data));
+      // Save photo and theme so editor picks them up
+      localStorage.setItem("editor-theme", selectedTheme);
+      if (photo) {
+        localStorage.setItem("editor-photo", photo);
+      } else {
+        localStorage.removeItem("editor-photo");
+      }
     }
     router.push("/editor/custom");
   };
@@ -111,7 +120,7 @@ export function CreatePageClient() {
           />
         </div>
         <div className="mt-2 flex justify-between text-xs text-muted-foreground">
-          {["Relationship", "Basic Info", "Life", "Family", "Service", "Style"].map(
+          {["Relation", "Info", "Life", "Family", "Photo", "Service", "Style"].map(
             (label, i) => (
               <span
                 key={i}
@@ -473,8 +482,61 @@ export function CreatePageClient() {
           </div>
         )}
 
-        {/* Step 5: Service Info */}
+        {/* Step 5: Photo & Theme */}
         {step === 5 && (
+          <div className="space-y-6">
+            <h2 className="mb-4 font-serif text-xl font-semibold text-primary">
+              Photo & Design
+            </h2>
+            <p className="text-sm text-muted-foreground">
+              Upload a photo and choose a visual theme for your obituary. These will appear in the visual preview and exported image/PDF.
+            </p>
+
+            {/* Photo Upload */}
+            <div>
+              <Label className="mb-3 block text-base font-medium">Upload a Photo</Label>
+              <div className="flex items-start gap-6">
+                <PhotoUpload
+                  photo={photo}
+                  onPhotoChange={setPhoto}
+                  size="lg"
+                />
+                <div className="flex-1 space-y-2 pt-2">
+                  <p className="text-sm text-muted-foreground">
+                    Upload a portrait photo of your loved one. This will be displayed in the header of your obituary.
+                  </p>
+                  <ul className="list-inside list-disc text-xs text-muted-foreground/80 space-y-1">
+                    <li>Portrait orientation works best</li>
+                    <li>Clear, well-lit photos recommended</li>
+                    <li>JPG or PNG format</li>
+                  </ul>
+                  {photo && (
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={() => setPhoto(null)}
+                      className="mt-2"
+                    >
+                      Remove Photo
+                    </Button>
+                  )}
+                </div>
+              </div>
+            </div>
+
+            {/* Theme Selection */}
+            <div>
+              <Label className="mb-3 block text-base font-medium">Choose a Visual Theme</Label>
+              <p className="mb-4 text-sm text-muted-foreground">
+                Select a background theme for your obituary. You can always change this later in the editor.
+              </p>
+              <ThemeSelector selected={selectedTheme} onSelect={setSelectedTheme} />
+            </div>
+          </div>
+        )}
+
+        {/* Step 6: Service Info */}
+        {step === 6 && (
           <div className="space-y-4">
             <h2 className="mb-4 font-serif text-xl font-semibold text-primary">
               Service Information (Optional)
@@ -550,8 +612,8 @@ export function CreatePageClient() {
           </div>
         )}
 
-        {/* Step 6: Style Selection */}
-        {step === 6 && (
+        {/* Step 7: Style Selection */}
+        {step === 7 && (
           <div>
             <h2 className="mb-4 font-serif text-xl font-semibold text-primary">
               Choose a Writing Style

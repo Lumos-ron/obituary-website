@@ -2,9 +2,15 @@
 
 import { useState, useEffect, useCallback, useRef } from "react";
 import { useParams, useRouter } from "next/navigation";
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { getTemplateById, fillTemplate } from "@/lib/templates";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { VisualTheme } from "@/lib/types";
+import { getTemplateById } from "@/lib/templates";
+import { getTemplateTheme } from "@/lib/templates/theme-map";
+import { VisualPreview } from "@/components/templates/VisualPreview";
+import { PhotoUpload } from "@/components/templates/PhotoUpload";
+import { ThemeSelector } from "@/components/templates/ThemeSelector";
 
 export function EditorPageClient() {
   const params = useParams();
@@ -13,6 +19,12 @@ export function EditorPageClient() {
   const [content, setContent] = useState("");
   const [originalContent, setOriginalContent] = useState("");
   const [showPreview, setShowPreview] = useState(false);
+  const [showDesign, setShowDesign] = useState(false);
+  const [photo, setPhoto] = useState<string | null>(null);
+  const [selectedTheme, setSelectedTheme] = useState<VisualTheme>("classic-white");
+  const [fullName, setFullName] = useState("Full Name");
+  const [dateOfBirth, setDateOfBirth] = useState("");
+  const [dateOfPassing, setDateOfPassing] = useState("");
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const saveTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -23,36 +35,68 @@ export function EditorPageClient() {
         setContent(saved);
         setOriginalContent(saved);
       }
+      const data = localStorage.getItem("obituary-data");
+      if (data) {
+        try {
+          const parsed = JSON.parse(data);
+          if (parsed.fullName) setFullName(parsed.fullName);
+          if (parsed.dateOfBirth) setDateOfBirth(parsed.dateOfBirth);
+          if (parsed.dateOfPassing) setDateOfPassing(parsed.dateOfPassing);
+        } catch { /* ignore */ }
+      }
     } else {
       const template = getTemplateById(id);
       if (template) {
         setContent(template.content);
         setOriginalContent(template.content);
+        setSelectedTheme(getTemplateTheme(id));
       }
     }
+    const savedPhoto = localStorage.getItem("editor-photo");
+    if (savedPhoto) setPhoto(savedPhoto);
+    const savedTheme = localStorage.getItem("editor-theme");
+    if (savedTheme) setSelectedTheme(savedTheme as VisualTheme);
   }, [id]);
 
-  // Auto-save
-  const autoSave = useCallback((text: string) => {
-    if (saveTimerRef.current) clearTimeout(saveTimerRef.current);
-    saveTimerRef.current = setTimeout(() => {
-      localStorage.setItem(`editor-${id}`, text);
-    }, 1000);
-  }, [id]);
+  const autoSave = useCallback(
+    (text: string) => {
+      if (saveTimerRef.current) clearTimeout(saveTimerRef.current);
+      saveTimerRef.current = setTimeout(() => {
+        localStorage.setItem(`editor-${id}`, text);
+      }, 1000);
+    },
+    [id]
+  );
 
   const handleChange = (text: string) => {
     setContent(text);
     autoSave(text);
   };
 
+  const handlePhotoChange = (newPhoto: string | null) => {
+    setPhoto(newPhoto);
+    if (newPhoto) localStorage.setItem("editor-photo", newPhoto);
+    else localStorage.removeItem("editor-photo");
+  };
+
+  const handleThemeChange = (theme: VisualTheme) => {
+    setSelectedTheme(theme);
+    localStorage.setItem("editor-theme", theme);
+  };
+
   const wordCount = content.trim().split(/\s+/).filter(Boolean).length;
 
   const handleExport = () => {
     localStorage.setItem("preview-content", content);
+    localStorage.setItem("preview-theme", selectedTheme);
+    localStorage.setItem("preview-fullName", fullName);
+    localStorage.setItem("preview-dob", dateOfBirth);
+    localStorage.setItem("preview-dop", dateOfPassing);
+    if (photo) localStorage.setItem("preview-photo", photo);
+    else localStorage.removeItem("preview-photo");
     router.push(`/preview/${id}`);
   };
 
-  // Formatting helpers
   const applyFormat = (prefix: string, suffix: string) => {
     const ta = textareaRef.current;
     if (!ta) return;
@@ -80,6 +124,13 @@ export function EditorPageClient() {
           </div>
           <div className="flex items-center gap-2">
             <Button
+              variant={showDesign ? "secondary" : "ghost"}
+              size="sm"
+              onClick={() => setShowDesign(!showDesign)}
+            >
+              Design
+            </Button>
+            <Button
               variant="ghost"
               size="sm"
               onClick={() => {
@@ -104,11 +155,66 @@ export function EditorPageClient() {
         </div>
       </div>
 
+      {/* Design Panel */}
+      {showDesign && (
+        <div className="border-b bg-white px-4 py-6">
+          <div className="mx-auto max-w-7xl space-y-6">
+            <div className="flex flex-col items-start gap-6 sm:flex-row">
+              <div>
+                <Label className="mb-2 block text-sm font-medium">Photo</Label>
+                <PhotoUpload
+                  photo={photo}
+                  onPhotoChange={handlePhotoChange}
+                  size="md"
+                />
+              </div>
+              <div className="flex-1 space-y-3">
+                <div>
+                  <Label htmlFor="ed-name" className="text-sm">Display Name</Label>
+                  <Input
+                    id="ed-name"
+                    value={fullName}
+                    onChange={(e) => setFullName(e.target.value)}
+                    placeholder="Full name for the header"
+                    className="mt-1"
+                  />
+                </div>
+                <div className="grid grid-cols-2 gap-3">
+                  <div>
+                    <Label htmlFor="ed-dob" className="text-sm">Born</Label>
+                    <Input
+                      id="ed-dob"
+                      value={dateOfBirth}
+                      onChange={(e) => setDateOfBirth(e.target.value)}
+                      placeholder="e.g., March 15, 1946"
+                      className="mt-1"
+                    />
+                  </div>
+                  <div>
+                    <Label htmlFor="ed-dop" className="text-sm">Passed</Label>
+                    <Input
+                      id="ed-dop"
+                      value={dateOfPassing}
+                      onChange={(e) => setDateOfPassing(e.target.value)}
+                      placeholder="e.g., January 8, 2025"
+                      className="mt-1"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <Label className="mb-3 block text-sm font-medium">Choose a Visual Theme</Label>
+              <ThemeSelector selected={selectedTheme} onSelect={handleThemeChange} />
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Editor + Preview */}
       <div className="mx-auto flex w-full max-w-7xl flex-1 flex-col md:flex-row">
         {/* Editor */}
         <div className={`flex-1 border-r ${showPreview ? "hidden md:block" : ""}`}>
-          {/* Format buttons */}
           <div className="flex gap-1 border-b bg-gray-50 px-4 py-2">
             <button
               onClick={() => applyFormat("**", "**")}
@@ -134,22 +240,18 @@ export function EditorPageClient() {
           />
         </div>
 
-        {/* Preview */}
-        <div className={`flex-1 bg-gray-50 ${!showPreview ? "hidden md:block" : ""}`}>
+        {/* Visual Preview */}
+        <div className={`flex-1 bg-gray-100 ${!showPreview ? "hidden md:block" : ""}`}>
           <div className="sticky top-32 p-6">
-            <div className="mx-auto max-w-lg rounded-xl border bg-white p-8 shadow-md">
-              <div className="template-preview">
-                {content.split("\n\n").map((paragraph, i) => (
-                  <p key={i} className="mb-4 text-base leading-relaxed">
-                    {paragraph.split("\n").map((line, j) => (
-                      <span key={j}>
-                        {j > 0 && <br />}
-                        {line}
-                      </span>
-                    ))}
-                  </p>
-                ))}
-              </div>
+            <div className="mx-auto max-w-lg overflow-hidden rounded-xl border shadow-lg">
+              <VisualPreview
+                theme={selectedTheme}
+                fullName={fullName}
+                dateOfBirth={dateOfBirth}
+                dateOfPassing={dateOfPassing}
+                content={content}
+                photo={photo}
+              />
             </div>
           </div>
         </div>

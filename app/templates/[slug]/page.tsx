@@ -14,7 +14,10 @@ import {
   TemplateCategory,
   CATEGORY_LABELS,
   STYLE_LABELS,
+  VISUAL_THEMES,
 } from "@/lib/types";
+import { getTemplateTheme } from "@/lib/templates/theme-map";
+import { VisualPreview } from "@/components/templates/VisualPreview";
 
 const validCategories: TemplateCategory[] = [
   "mother", "father", "spouse", "grandparent", "sibling", "friend", "child", "general",
@@ -86,6 +89,8 @@ export default async function TemplateSlugPage({ params }: Props) {
   if (!template) notFound();
 
   const related = getRelatedTemplates(template);
+  const themeId = getTemplateTheme(template.id);
+  const themeConfig = VISUAL_THEMES[themeId];
   const previewText = template.content
     .replace(/\{\{fullName\}\}/g, "Margaret Elizabeth Johnson")
     .replace(/\{\{firstName\}\}/g, "Margaret")
@@ -112,21 +117,20 @@ export default async function TemplateSlugPage({ params }: Props) {
   return (
     <div className="mx-auto max-w-7xl px-4 py-10 sm:py-16">
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-5">
-        {/* Template Preview */}
+        {/* Template Visual Preview */}
         <div className="lg:col-span-3">
-          <div className="rounded-xl border bg-white p-8 shadow-md sm:p-12">
-            <div className="paper-texture template-preview mx-auto max-w-xl">
-              <h2 className="mb-1 text-center font-serif text-2xl font-bold text-primary">
-                {template.title}
-              </h2>
-              <div className="mx-auto my-4 h-px w-24 bg-accent/40" />
-              {previewText.split("\n\n").map((paragraph, i) => (
-                <p key={i} className="mb-4 text-base leading-relaxed">
-                  {paragraph}
-                </p>
-              ))}
-            </div>
+          <div className="overflow-hidden rounded-xl border shadow-lg">
+            <VisualPreview
+              theme={themeId}
+              fullName="Margaret Elizabeth Johnson"
+              dateOfBirth="March 15, 1946"
+              dateOfPassing="January 8, 2025"
+              content={previewText}
+            />
           </div>
+          <p className="mt-3 text-center text-sm text-muted-foreground">
+            Theme: <span className="font-medium">{themeConfig.name}</span> &middot; You can change the theme in the editor
+          </p>
         </div>
 
         {/* Sidebar */}

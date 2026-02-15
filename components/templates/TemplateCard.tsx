@@ -1,26 +1,31 @@
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Template, CATEGORY_LABELS, STYLE_LABELS } from "@/lib/types";
+import { Template, CATEGORY_LABELS, STYLE_LABELS, VISUAL_THEMES } from "@/lib/types";
+import { getTemplateTheme } from "@/lib/templates/theme-map";
+import { VisualPreview } from "./VisualPreview";
 
 export function TemplateCard({ template }: { template: Template }) {
+  const themeId = getTemplateTheme(template.id);
+  const theme = VISUAL_THEMES[themeId];
+
   return (
     <div className="group overflow-hidden rounded-xl border border-gray-100 bg-white shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
-      {/* Preview area */}
-      <div className="relative border-b bg-gradient-to-b from-gray-50 to-white p-6">
-        <div className="mx-auto max-w-[280px]">
-          <div className="rounded-lg border bg-white p-4 shadow-sm">
-            <p className="mb-1 text-center font-serif text-sm font-semibold text-primary">
-              {template.title}
-            </p>
-            <div className="mx-auto my-2 h-px w-16 bg-accent/30" />
-            <p className="line-clamp-4 text-center text-xs leading-relaxed text-muted-foreground">
-              {template.content
-                .replace(/\{\{[^}]+\}\}/g, "___")
-                .substring(0, 180)}
-              ...
-            </p>
-          </div>
+      {/* Visual preview area */}
+      <div className="relative overflow-hidden">
+        <VisualPreview
+          theme={themeId}
+          fullName="Margaret E. Johnson"
+          dateOfBirth="1946"
+          dateOfPassing="2025"
+          content={template.content}
+          compact
+        />
+        {/* Theme badge overlay */}
+        <div className="absolute bottom-2 right-2">
+          <span className="rounded-full bg-black/40 px-2 py-0.5 text-[9px] font-medium text-white backdrop-blur-sm">
+            {theme.name}
+          </span>
         </div>
       </div>
 

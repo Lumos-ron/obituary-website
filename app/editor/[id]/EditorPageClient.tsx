@@ -19,7 +19,7 @@ export function EditorPageClient() {
   const [content, setContent] = useState("");
   const [originalContent, setOriginalContent] = useState("");
   const [showPreview, setShowPreview] = useState(false);
-  const [showDesign, setShowDesign] = useState(false);
+  const [showDesign, setShowDesign] = useState(true);
   const [photo, setPhoto] = useState<string | null>(null);
   const [selectedTheme, setSelectedTheme] = useState<VisualTheme>("classic-white");
   const [fullName, setFullName] = useState("Full Name");

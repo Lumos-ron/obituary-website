@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Inter, Playfair_Display } from "next/font/google";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
@@ -65,6 +66,12 @@ export default function RootLayout({
         <Header />
         <main className="min-h-screen">{children}</main>
         <Footer />
+        <Script
+          defer
+          src="https://umami.lumoss.top/script.js"
+          data-website-id="906ae330-1023-49a8-810f-59c32e6a2fa8"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );

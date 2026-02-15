@@ -44,18 +44,22 @@ export function EditorPageClient() {
           if (parsed.dateOfPassing) setDateOfPassing(parsed.dateOfPassing);
         } catch { /* ignore */ }
       }
+      // Only restore saved theme for custom mode
+      const savedTheme = localStorage.getItem("editor-theme");
+      if (savedTheme) setSelectedTheme(savedTheme as VisualTheme);
     } else {
       const template = getTemplateById(id);
       if (template) {
         setContent(template.content);
         setOriginalContent(template.content);
-        setSelectedTheme(getTemplateTheme(id));
+        // Always use the template's mapped theme when opening a specific template
+        const templateTheme = getTemplateTheme(id);
+        setSelectedTheme(templateTheme);
+        localStorage.setItem("editor-theme", templateTheme);
       }
     }
     const savedPhoto = localStorage.getItem("editor-photo");
     if (savedPhoto) setPhoto(savedPhoto);
-    const savedTheme = localStorage.getItem("editor-theme");
-    if (savedTheme) setSelectedTheme(savedTheme as VisualTheme);
   }, [id]);
 
   const autoSave = useCallback(

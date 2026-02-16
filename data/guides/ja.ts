@@ -3,438 +3,438 @@ import { GuideArticle } from "@/lib/types";
 export const guides: GuideArticle[] = [
   {
     slug: "how-to-write-obituary",
-    title: "How to Write a Meaningful Obituary: A Complete Guide",
+    title: "心のこもった訃報の書き方：完全ガイド",
     description:
-      "A step-by-step walkthrough for writing an obituary that truly honors your loved one, from gathering information to choosing the right tone and structure.",
+      "情報の収集から適切なトーンや構成の選択まで、大切な方を真に称える訃報を書くためのステップバイステップガイドです。",
     readingTime: 8,
     content: `
-<h2>Introduction</h2>
-<p>Writing an obituary is one of the most personal and important tasks you may face during a time of loss. It is more than a formal announcement — it is a lasting tribute that captures the essence of a life lived. While the process can feel overwhelming, especially amid grief, taking the time to craft a thoughtful obituary ensures your loved one is remembered with the dignity and warmth they deserve.</p>
-<p>This guide walks you through every step, from gathering details to polishing the final draft. Whether you are writing for a parent, a spouse, a friend, or another cherished person, the principles here will help you create something meaningful.</p>
+<h2>はじめに</h2>
+<p>訃報を書くことは、喪失の時期に直面する最も個人的で重要な作業のひとつです。それは単なる正式な告知ではなく、一人の人生の本質を捉える永続的な追悼文です。悲しみの中では圧倒されるように感じるかもしれませんが、心を込めて訃報を作成することで、大切な方にふさわしい尊厳と温かさをもって記憶に残すことができます。</p>
+<p>このガイドでは、情報の収集から最終稿の仕上げまで、すべてのステップをご案内します。親御さん、配偶者、友人、その他の大切な方のために書く場合でも、ここでご紹介する原則は、心のこもった訃報の作成にお役立ていただけます。</p>
 
-<h2>Step 1: Gather Key Information</h2>
-<p>Before you begin writing, collect the essential facts and stories that will form the backbone of the obituary. Having this information at hand makes the process smoother and helps ensure nothing important is overlooked.</p>
-<h3>Biographical Details</h3>
+<h2>ステップ1：基本情報を集める</h2>
+<p>書き始める前に、訃報の骨格となる重要な事実やエピソードを集めましょう。これらの情報を手元に用意しておくことで、執筆がスムーズになり、大切な内容の漏れを防ぐことができます。</p>
+<h3>経歴に関する情報</h3>
 <ul>
-<li>Full legal name, including maiden name or any name changes</li>
-<li>Date and place of birth</li>
-<li>Date and place of passing</li>
-<li>Names of immediate family members — spouse, children, grandchildren, parents, and siblings</li>
-<li>Education history, including schools attended and degrees earned</li>
-<li>Career highlights and professional achievements</li>
-<li>Military service, if applicable</li>
+<li>戸籍上の氏名（旧姓や改名がある場合はそれも含む）</li>
+<li>生年月日と出生地</li>
+<li>逝去日と逝去場所</li>
+<li>直近のご家族の名前 — 配偶者、子ども、孫、両親、きょうだい</li>
+<li>学歴（卒業した学校や取得した学位など）</li>
+<li>職歴のハイライトと専門的な業績</li>
+<li>該当する場合は軍歴</li>
 </ul>
-<h3>Personal Details</h3>
+<h3>個人的な情報</h3>
 <ul>
-<li>Hobbies, passions, and interests</li>
-<li>Community involvement, volunteer work, or memberships</li>
-<li>Religious or spiritual affiliations</li>
-<li>Favorite sayings, qualities friends admired, or personality traits that defined them</li>
-<li>Anecdotes or stories that illustrate who they were</li>
+<li>趣味、情熱を注いでいたこと、関心事</li>
+<li>地域活動への参加、ボランティア活動、所属団体</li>
+<li>宗教的・精神的なつながり</li>
+<li>口癖、友人から敬愛された資質、その人を象徴する性格的特徴</li>
+<li>その人柄を物語るエピソードや思い出</li>
 </ul>
-<p>Reach out to family members and close friends for input. They may recall moments and details that enrich the tribute and help paint a fuller picture.</p>
+<p>ご家族や親しい友人にも声をかけてみましょう。訃報をより豊かにし、故人の全体像を描くのに役立つ瞬間やエピソードを覚えていらっしゃるかもしれません。</p>
 
-<h2>Step 2: Decide on Tone and Style</h2>
-<p>The tone of an obituary should reflect the personality of the person being honored. Some families prefer a formal, traditional approach, while others opt for a warmer, more conversational voice. Neither is wrong — what matters is authenticity.</p>
-<p>Consider the following questions:</p>
+<h2>ステップ2：トーンとスタイルを決める</h2>
+<p>訃報のトーンは、追悼する方の人柄を反映したものにするべきです。格式ある伝統的なスタイルを好むご家族もあれば、温かみのある親しみやすい文体を選ぶご家族もあります。どちらも正しい選択です。大切なのは、その方らしさが伝わることです。</p>
+<p>次のような点を考えてみてください：</p>
 <ul>
-<li>Was your loved one known for their humor? A lighthearted touch might be fitting.</li>
-<li>Were they deeply private? A dignified, understated tone may be more appropriate.</li>
-<li>Did they have a strong faith? Incorporating spiritual language could be meaningful.</li>
+<li>故人はユーモアのある方でしたか？少し軽やかなタッチがふさわしいかもしれません。</li>
+<li>控えめで慎み深い方でしたか？品格のある落ち着いたトーンがより適切かもしれません。</li>
+<li>深い信仰をお持ちでしたか？宗教的な表現を取り入れることが意味のあるものになるかもしれません。</li>
 </ul>
-<p>If you are unsure where to start, you can <a href="/templates">browse our templates</a> for inspiration. Templates offer a helpful framework that you can personalize to suit your needs.</p>
+<p>どこから始めればよいかわからない場合は、<a href="/templates">テンプレート一覧</a>をご参考ください。テンプレートは、ご自身のニーズに合わせてカスタマイズできる便利な枠組みを提供します。</p>
 
-<h2>Step 3: Write the Opening</h2>
-<p>The opening lines set the stage for the entire obituary. A strong opening immediately conveys who the person was and draws readers in.</p>
-<p>Traditional openings typically state the person's name, age, city of residence, and date of passing. However, you can also begin with a defining quality, a brief quote, or a statement that captures their spirit.</p>
-<p>For example, instead of simply writing "John Smith, 78, passed away on March 5," you might write: "John Smith, a devoted father, lifelong gardener, and friend to all who knew him, passed away peacefully on March 5 at the age of 78." The second version immediately gives the reader a sense of who John was.</p>
+<h2>ステップ3：書き出しを書く</h2>
+<p>冒頭の文章は、訃報全体の印象を決定づけます。力強い書き出しは、故人がどのような方であったかを即座に伝え、読者の心を引きつけます。</p>
+<p>伝統的な書き出しでは、故人の氏名、年齢、居住地、逝去日を記載するのが一般的です。しかし、故人を特徴づける資質や簡潔な言葉、その方の精神を捉える一文から始めることもできます。</p>
+<p>たとえば、単に「田中太郎、78歳、3月5日に逝去」と書く代わりに、「献身的な父であり、生涯を通じた園芸愛好家であり、出会うすべての人の友であった田中太郎は、3月5日、78歳にて安らかに永眠いたしました」と書くこともできます。後者の表現は、読者に太郎さんがどのような方であったかを即座に伝えます。</p>
 
-<h2>Step 4: Build the Life Story</h2>
-<p>The body of the obituary is where you tell the story of your loved one's life. Organize this section chronologically or thematically — whichever feels more natural.</p>
-<h3>Chronological Approach</h3>
-<p>Start with early life (where they grew up, family background), move through education and career, and then cover their later years, including retirement, hobbies, and family life. This structure is straightforward and easy for readers to follow.</p>
-<h3>Thematic Approach</h3>
-<p>Organize around the roles and passions that defined them: as a parent, a professional, a community member, a hobbyist. This approach works well for people whose impact spanned many areas and allows you to highlight what mattered most.</p>
-<p>Whichever structure you choose, include specific details. Mention the name of the company where they worked for thirty years, the garden club they helped found, or the camping trips they took with their grandchildren every summer. Specificity brings an obituary to life.</p>
+<h2>ステップ4：人生の物語を綴る</h2>
+<p>訃報の本文は、大切な方の人生の物語を語る部分です。このセクションは、時系列またはテーマ別に構成しましょう。より自然に感じられる方を選んでください。</p>
+<h3>時系列のアプローチ</h3>
+<p>幼少期（育った場所、家族の背景）から始め、学歴や職歴を経て、退職後の生活、趣味、家族との時間など、晩年について書きます。この構成はわかりやすく、読者にとって追いやすいものです。</p>
+<h3>テーマ別のアプローチ</h3>
+<p>親として、職業人として、地域の一員として、趣味人として、など故人を特徴づけた役割や情熱を軸に構成します。このアプローチは、多方面にわたって影響を与えた方に適しており、最も大切なことを際立たせることができます。</p>
+<p>どちらの構成を選ぶにしても、具体的なディテールを盛り込みましょう。30年間勤務した会社の名前、設立に関わったガーデニングクラブ、毎年夏にお孫さんと出かけたキャンプ旅行など。具体的な描写が訃報に生命を吹き込みます。</p>
 
-<h2>Step 5: Acknowledge Survivors and Those Who Preceded Them</h2>
-<p>List the names of surviving family members, typically starting with the spouse, then children (and their spouses), grandchildren, siblings, and sometimes close friends or caregivers. Also mention those who preceded the deceased in death, such as parents, siblings, or a spouse.</p>
-<p>This section provides comfort and context. It honors relationships and helps the community understand the family connections.</p>
+<h2>ステップ5：ご遺族と先立たれた方々について記す</h2>
+<p>ご遺族の名前を記載します。一般的には、配偶者、子ども（およびその配偶者）、孫、きょうだいの順に記し、場合によっては親しい友人や介護者も含めます。また、両親、きょうだい、配偶者など、故人より先に亡くなられた方々についても言及します。</p>
+<p>このセクションは、慰めと背景を提供します。人間関係を尊重し、コミュニティが家族のつながりを理解する助けとなります。</p>
 
-<h2>Step 6: Include Service and Memorial Details</h2>
-<p>Provide practical information about memorial services, visitation, funeral arrangements, and burial or cremation plans. Include dates, times, and locations. If the family prefers donations to a specific charity in lieu of flowers, state that clearly here.</p>
+<h2>ステップ6：告別式・追悼式の情報を記載する</h2>
+<p>告別式、通夜、葬儀の手配、埋葬または火葬の予定など、実務的な情報を記載します。日時と場所を含めてください。ご家族が供花の代わりに特定の慈善団体への寄付を希望される場合は、ここに明記しましょう。</p>
 
-<h2>Step 7: Review, Revise, and Finalize</h2>
-<p>Once you have a draft, set it aside for a short while if possible, then return to it with fresh eyes. Read it aloud — this helps catch awkward phrasing and ensures the tone feels right.</p>
-<p>Ask a trusted family member or friend to review the draft as well. They may spot errors or suggest additions that strengthen the tribute.</p>
-<p>Check all names, dates, and facts for accuracy. A published obituary becomes a permanent record, so precision matters.</p>
-<p>If you would like a guided, structured approach to writing, try our <a href="/create">obituary creator</a>, which walks you through each section step by step.</p>
+<h2>ステップ7：見直し、推敲、最終確認</h2>
+<p>草稿ができたら、可能であれば少し時間をおいてから、新鮮な目で読み返しましょう。声に出して読むと、不自然な表現に気づきやすく、トーンが適切かどうか確認できます。</p>
+<p>信頼できるご家族や友人にも草稿を確認してもらいましょう。誤りに気づいたり、訃報をより充実させる提案をしてくれるかもしれません。</p>
+<p>すべての氏名、日付、事実の正確性を確認してください。公開された訃報は永続的な記録となりますので、正確さが重要です。</p>
+<p>ガイド付きの体系的なアプローチで作成したい場合は、各セクションを順に案内する<a href="/create">訃報作成ツール</a>をお試しください。</p>
 
-<h2>Tips for Writing Under Pressure</h2>
-<p>Grief can make even simple tasks feel monumental. Here are some practical tips to help you through:</p>
+<h2>時間に追われているときのアドバイス</h2>
+<p>悲しみの中では、簡単な作業でさえ大変に感じられることがあります。以下は、その過程を乗り越えるための実践的なアドバイスです：</p>
 <ul>
-<li>Do not try to write the entire obituary in one sitting. Break it into sections and take breaks.</li>
-<li>Start with the facts, then layer in the personal touches. Getting the basics down first reduces the blank-page anxiety.</li>
-<li>Ask for help. There is no rule that says one person must write the entire obituary alone.</li>
-<li>Remember that done is better than perfect. Your loved one would appreciate the effort, regardless of how polished the prose is.</li>
+<li>訃報全体を一度に書こうとしないでください。セクションごとに分けて、合間に休憩を取りましょう。</li>
+<li>まず事実関係から書き、その後に個人的なエピソードを加えていきましょう。基本情報を先に書き出すことで、白紙の不安を軽減できます。</li>
+<li>助けを求めましょう。一人ですべてを書かなければならないというルールはありません。</li>
+<li>完璧でなくても大丈夫です。大切な方は、文章の完成度にかかわらず、あなたの努力を感謝してくれるでしょう。</li>
 </ul>
 
-<h2>Final Thoughts</h2>
-<p>An obituary is both a farewell and a celebration. It tells the world that this person mattered — that they loved, contributed, and left a mark. By approaching the task with care, gathering meaningful details, and writing from the heart, you can create a tribute that honors their memory for years to come.</p>
-<p>If you need a starting point, <a href="/templates">explore our collection of obituary templates</a> designed for a variety of relationships and tones. You do not have to face this task alone.</p>
+<h2>おわりに</h2>
+<p>訃報は、お別れであると同時にお祝いでもあります。この方が大切な存在であったこと、愛し、貢献し、足跡を残したことを世界に伝えるものです。丁寧に取り組み、意味のある情報を集め、心から書くことで、末永く故人の記憶を称える追悼文を作成することができます。</p>
+<p>出発点が必要な場合は、さまざまな関係性やトーンに対応した<a href="/templates">訃報テンプレートのコレクション</a>をご覧ください。この作業に一人で向き合う必要はありません。</p>
 `,
   },
   {
     slug: "dos-and-donts",
-    title: "Obituary Writing Do's and Don'ts",
+    title: "訃報を書くときの「すべきこと」と「避けるべきこと」",
     description:
-      "Practical advice on common mistakes to avoid and best practices to follow when writing an obituary, so you can create a respectful and accurate tribute.",
+      "訃報を書く際に避けるべき一般的な間違いと、守るべきベストプラクティスに関する実践的なアドバイスです。敬意を込めた正確な追悼文を作成するためにお役立てください。",
     readingTime: 7,
     content: `
-<h2>Introduction</h2>
-<p>Writing an obituary involves balancing honesty, sensitivity, and practicality. Even with the best intentions, it is easy to include too much, leave out something important, or strike the wrong tone. This guide outlines clear do's and don'ts to help you navigate the process with confidence.</p>
-<p>Whether this is your first time writing an obituary or you want to refine a draft you have already started, these guidelines will keep you on the right track.</p>
+<h2>はじめに</h2>
+<p>訃報を書くには、誠実さ、配慮、実用性のバランスが求められます。善意があっても、情報を盛り込みすぎたり、大切なことを漏らしたり、適切でないトーンになってしまうことは容易に起こります。このガイドでは、自信を持って訃報を書くための明確な「すべきこと」と「避けるべきこと」をご紹介します。</p>
+<p>初めて訃報を書く方にも、すでに書き始めた草稿を改善したい方にも、このガイドラインがお役に立つでしょう。</p>
 
-<h2>The Do's</h2>
+<h2>すべきこと</h2>
 
-<h3>Do Verify All Facts</h3>
-<p>Double-check every name, date, and detail before submitting the obituary. This includes the correct spelling of survivors' names, the accurate date and location of birth and death, and the proper names of organizations, schools, and employers mentioned. Errors in a published obituary can cause confusion and distress for the family.</p>
+<h3>すべての事実を確認しましょう</h3>
+<p>訃報を提出する前に、すべての氏名、日付、詳細を再確認してください。ご遺族の名前の正確な表記、正確な生年月日と逝去日および場所、言及する組織・学校・勤務先の正式名称などが含まれます。公開された訃報の誤りは、ご家族に混乱と苦痛を与える可能性があります。</p>
 
-<h3>Do Use the Person's Preferred Name</h3>
-<p>If your loved one went by a nickname or a name different from their legal name, include both. For example: "Margaret 'Maggie' Thompson." This small detail helps readers recognize the person and reflects how they were known in daily life.</p>
+<h3>故人が好んで使っていた名前を使いましょう</h3>
+<p>大切な方が通称やニックネームを使っていた場合は、戸籍名と併記しましょう。例：「田中花子（旧姓：山田）」。この小さな配慮が、読者が故人を認識しやすくし、日常生活でどのように呼ばれていたかを反映します。</p>
 
-<h3>Do Capture Their Personality</h3>
-<p>An obituary should feel like a reflection of the person, not a generic fill-in-the-blank document. Include specific traits, habits, and passions that made them unique. Did they tell the same joke at every family gathering? Did they always have a book in hand? These details are what transform a list of facts into a genuine tribute.</p>
+<h3>人柄を捉えましょう</h3>
+<p>訃報は、故人を映す鏡のようなものであるべきで、汎用的な穴埋め文書であってはなりません。その方を特別にしていた具体的な性格、習慣、情熱を盛り込みましょう。家族の集まりで毎回同じ冗談を言っていましたか？いつも手に本を持っていましたか？こうした細部こそが、事実の羅列を本物の追悼文へと変えるのです。</p>
 
-<h3>Do Keep the Audience in Mind</h3>
-<p>Obituaries are read by a wide audience — close family, distant relatives, colleagues, neighbors, and community members. Write in a way that is accessible and respectful to all readers. Avoid inside jokes or references that only a handful of people would understand, unless you briefly explain them.</p>
+<h3>読者を意識しましょう</h3>
+<p>訃報は幅広い読者に読まれます — 近親者、遠い親戚、同僚、近隣の方々、地域の方々など。すべての読者にとってわかりやすく敬意のある書き方を心がけましょう。一部の人にしか通じない内輪の冗談や言及は、簡潔に説明を添えない限り避けるのが良いでしょう。</p>
 
-<h3>Do Include Service Information</h3>
-<p>Readers often turn to obituaries for practical details about memorial services. Be sure to include the date, time, location, and any special instructions (such as dress code, charitable donations, or livestream links). If arrangements are still pending, say so and provide a way for people to find updated information.</p>
+<h3>告別式の情報を記載しましょう</h3>
+<p>読者は訃報から告別式の詳細を知ろうとすることが多いです。日時、場所、特別な案内事項（服装規定、寄付先、オンライン配信のリンクなど）を必ず記載してください。手配がまだ決まっていない場合は、その旨を記し、最新情報の確認方法をお知らせください。</p>
 
-<h3>Do Ask for Input</h3>
-<p>Invite family members and close friends to contribute memories, quotes, or details. This collaboration not only lightens your load but also results in a richer, more well-rounded tribute. You might discover stories and qualities you were not aware of.</p>
+<h3>周囲の意見を求めましょう</h3>
+<p>ご家族や親しい友人に、思い出、言葉、詳細な情報を寄せてもらいましょう。この協力によって負担が軽くなるだけでなく、より豊かで多面的な追悼文になります。ご自身が知らなかったエピソードや資質が見つかるかもしれません。</p>
 
-<h3>Do Consider Using a Template</h3>
-<p>If you are struggling with structure, a template can provide a helpful starting framework. You can <a href="/templates">browse our templates</a> to find one that fits your needs, then customize it with personal details and stories.</p>
+<h3>テンプレートの活用を検討しましょう</h3>
+<p>構成に悩んでいる場合は、テンプレートが役立つ出発点となります。<a href="/templates">テンプレート一覧</a>からニーズに合ったものを見つけ、個人的な情報やエピソードでカスタマイズすることができます。</p>
 
-<h2>The Don'ts</h2>
+<h2>避けるべきこと</h2>
 
-<h3>Don't Rush the Process</h3>
-<p>While there are often deadlines for newspaper publication, try not to let urgency compromise quality. If you need more time, many funeral homes and online platforms allow you to publish or update an obituary after the initial announcement. Take the time to get it right.</p>
+<h3>急いで書かないようにしましょう</h3>
+<p>新聞への掲載期限がある場合でも、焦りで品質を犠牲にしないようにしましょう。もう少し時間が必要な場合、多くの葬儀社やオンラインプラットフォームでは、最初の告知後に訃報を掲載・更新することが可能です。納得のいくものに仕上げる時間を確保してください。</p>
 
-<h3>Don't Include Cause of Death Unless the Family Agrees</h3>
-<p>The decision to include or omit the cause of death is deeply personal. Some families feel it provides closure and context; others consider it private. Discuss this with the immediate family before making a decision. Phrases like "passed away after a courageous battle with cancer" or "died peacefully at home" offer varying levels of detail without being graphic.</p>
+<h3>家族の同意なしに死因を記載しないでください</h3>
+<p>死因を記載するかどうかは、非常に個人的な判断です。情報を公開することで区切りがつくと感じるご家族もあれば、プライベートな事柄と考えるご家族もあります。判断を下す前に、直近のご家族と相談してください。「がんとの勇敢な闘病の末に永眠」や「自宅にて安らかに息を引き取りました」といった表現は、具体性のレベルを調整しながら伝えることができます。</p>
 
-<h3>Don't Exaggerate or Fabricate</h3>
-<p>It can be tempting to idealize the deceased, but an obituary that feels dishonest can ring hollow to those who knew the person well. You do not need to air grievances or highlight flaws, but aim for an honest portrayal. Focus on genuine strengths, real accomplishments, and authentic qualities.</p>
+<h3>誇張や虚偽は避けましょう</h3>
+<p>故人を理想化したくなることもありますが、不誠実に感じられる訃報は、故人をよく知る人々には空虚に映ることがあります。不満を述べたり欠点を強調したりする必要はありませんが、誠実な描写を心がけましょう。本当の長所、実際の功績、偽りのない人柄に焦点を当ててください。</p>
 
-<h3>Don't Use Cliches Without Thought</h3>
-<p>Phrases like "gone too soon," "called home," or "lost their battle" are so common that they can lose their impact. If a phrase genuinely reflects your loved one's situation or beliefs, use it. But if you are reaching for it simply because you have seen it before, consider whether more specific, personal language would serve better.</p>
+<h3>安易に決まり文句を使わないようにしましょう</h3>
+<p>「早すぎる旅立ち」「天に召された」「病に敗れた」といった表現は、あまりにも一般的であるため、心に響かないことがあります。その表現が故人の状況や信仰を真に反映している場合は使用しても構いません。しかし、単に見慣れているからという理由で使うなら、より具体的で個人的な言葉の方がふさわしくないか考えてみてください。</p>
 
-<h3>Don't Forget to Proofread</h3>
-<p>Typos, grammatical errors, and formatting issues can distract from the tribute and may even cause misunderstandings. Read the obituary aloud, have someone else review it, and check it one more time before submission. Pay special attention to the spelling of names and the accuracy of dates.</p>
+<h3>校正を忘れないでください</h3>
+<p>誤字、文法的な誤り、フォーマットの問題は、追悼文の品位を損ない、誤解を招く恐れがあります。訃報を声に出して読み、他の人にも確認してもらい、提出前にもう一度チェックしてください。特に氏名の表記と日付の正確性には注意を払いましょう。</p>
 
-<h3>Don't Exclude Important Relationships</h3>
-<p>Failing to mention a surviving family member — intentionally or accidentally — can cause lasting hurt. Be thorough when listing survivors and those who preceded the deceased. When in doubt, ask other family members to review the list.</p>
+<h3>大切な関係者を漏らさないようにしましょう</h3>
+<p>ご遺族の名前を記載し忘れると — 意図的であれ偶然であれ — 深い傷つきの原因となることがあります。ご遺族と先に旅立たれた方の一覧は、漏れなく丁寧に作成してください。迷った場合は、他のご家族にリストを確認してもらいましょう。</p>
 
-<h3>Don't Make It Only About Accomplishments</h3>
-<p>Professional achievements and awards are worth mentioning, but an obituary that reads like a resume misses the heart of the person. Balance career highlights with personal stories, relationships, and the quieter moments that defined their daily life. The goal is to show who they were, not just what they did.</p>
+<h3>業績だけの訃報にしないでください</h3>
+<p>職業上の功績や受賞歴は記載に値しますが、履歴書のような訃報では、その方の本質が伝わりません。キャリアのハイライトと、個人的なエピソード、人間関係、日常を彩ったささやかな瞬間をバランスよく織り交ぜましょう。何をしたかだけでなく、どのような方であったかを示すことが大切です。</p>
 
-<h3>Don't Neglect Practical Details</h3>
-<p>An obituary that beautifully captures someone's life but fails to mention when or where the service will be held has missed a key function. Always include memorial information, or at minimum, direct readers to where they can find it.</p>
+<h3>実務的な情報を忘れないでください</h3>
+<p>人生を美しく描写していても、告別式の日時や場所が記載されていない訃報は、重要な役割を果たしていません。必ず告別式の情報を含めるか、少なくとも詳細を確認できる場所を読者に案内してください。</p>
 
-<h2>Common Pitfalls to Watch For</h2>
+<h2>注意すべきよくある落とし穴</h2>
 <ul>
-<li>Writing too long or too short. Aim for a length that does justice to the person without overwhelming the reader. Most obituaries range from 200 to 600 words, though there is no strict rule.</li>
-<li>Using overly formal language that does not match the person's character. Write in a voice that feels true to who they were.</li>
-<li>Forgetting to include a photo. A photograph helps readers connect with the person and makes the obituary more personal.</li>
-<li>Omitting information about charitable donations or memorial funds the family has established.</li>
+<li>長すぎる、または短すぎる文章。故人にふさわしい長さで、読者を圧倒しない分量を目指しましょう。多くの訃報は200〜600語ですが、厳格なルールはありません。</li>
+<li>故人の人柄に合わない堅すぎる表現。その方にふさわしいと感じられる文体で書きましょう。</li>
+<li>写真の添付を忘れること。写真があると、読者は故人とのつながりを感じやすくなり、訃報がより個人的なものになります。</li>
+<li>ご家族が設立した慈善寄付先や追悼基金の情報を記載し忘れること。</li>
 </ul>
 
-<h2>A Quick Checklist Before You Publish</h2>
+<h2>公開前の簡易チェックリスト</h2>
 <ul>
-<li>All names and dates are accurate</li>
-<li>The tone matches the person's personality</li>
-<li>Surviving family members have been listed and the list has been reviewed</li>
-<li>Service details are included or a reference to where they can be found</li>
-<li>The obituary has been proofread by at least one other person</li>
-<li>A photograph has been selected</li>
-<li>Charitable donation or memorial fund information is included, if applicable</li>
+<li>すべての氏名と日付が正確であること</li>
+<li>トーンが故人の人柄に合っていること</li>
+<li>ご遺族の一覧が記載され、確認されていること</li>
+<li>告別式の詳細が記載されている、または確認先が案内されていること</li>
+<li>少なくとも一人の他者による校正が済んでいること</li>
+<li>写真が選ばれていること</li>
+<li>該当する場合、寄付先や追悼基金の情報が含まれていること</li>
 </ul>
-<p>For a guided approach that ensures you cover all the essentials, try our <a href="/create">obituary creator</a>. It walks you through each section and helps you avoid the most common mistakes.</p>
+<p>すべての要素を確実にカバーするガイド付きのアプローチをご希望の場合は、<a href="/create">訃報作成ツール</a>をお試しください。各セクションを順に案内し、よくある間違いを避けるお手伝いをします。</p>
 
-<h2>Conclusion</h2>
-<p>The best obituaries are honest, specific, and written with care. By following these do's and don'ts, you can create a tribute that honors your loved one's memory, provides comfort to those who are grieving, and serves as a lasting record of a life well lived.</p>
+<h2>まとめ</h2>
+<p>優れた訃報は、誠実で、具体的で、心を込めて書かれたものです。これらの「すべきこと」と「避けるべきこと」に従うことで、大切な方の記憶を称え、悲しみの中にある方々に慰めを提供し、充実した人生の永続的な記録となる追悼文を作成することができます。</p>
 `,
   },
   {
     slug: "what-to-include",
-    title: "What to Include in an Obituary",
+    title: "訃報に含めるべき内容",
     description:
-      "A comprehensive breakdown of every element that belongs in an obituary, from essential biographical details to personal touches that make it memorable.",
+      "基本的な経歴情報から記憶に残る個人的なエピソードまで、訃報に盛り込むべきすべての要素を包括的に解説します。",
     readingTime: 7,
     content: `
-<h2>Introduction</h2>
-<p>When sitting down to write an obituary, one of the first questions people ask is: what should I actually include? The answer depends partly on the person, partly on the family's wishes, and partly on the publication or platform where the obituary will appear. However, there are common elements that form the foundation of nearly every well-written obituary.</p>
-<p>This guide breaks down each element so you can approach the writing process with clarity and confidence. Think of it as a checklist you can work through, section by section.</p>
+<h2>はじめに</h2>
+<p>訃報を書くにあたって、多くの方がまず「実際に何を含めるべきか」と疑問に思われます。その答えは、故人の人柄、ご家族のご意向、そして訃報を掲載する媒体やプラットフォームによって部分的に異なります。しかし、ほぼすべての優れた訃報の基盤となる共通の要素があります。</p>
+<p>このガイドでは、各要素を詳しく解説しますので、明確さと自信を持って執筆に臨むことができます。セクションごとに進められるチェックリストとしてお使いください。</p>
 
-<h2>Essential Information</h2>
+<h2>必須情報</h2>
 
-<h3>Full Name</h3>
-<p>Begin with the person's full legal name. If they were commonly known by a nickname, middle name, or maiden name, include that as well. For example: "Robert James 'Bobby' Anderson" or "Maria Elena Gutierrez (nee Alvarez)." This ensures that people searching for the obituary can find it regardless of which name they knew the person by.</p>
+<h3>氏名</h3>
+<p>故人の戸籍上の氏名から始めましょう。通称、旧姓、ニックネームなどで知られていた場合は、それも併記します。例：「山田太郎（通称：タロちゃん）」や「鈴木花子（旧姓：佐藤）」。これにより、どの名前で故人を知っていた方でも訃報を見つけることができます。</p>
 
-<h3>Date and Place of Birth</h3>
-<p>Include the date of birth and, if known, the city or town where the person was born. This provides historical context and is particularly meaningful for families tracing their heritage or for community members who shared a hometown.</p>
+<h3>生年月日と出生地</h3>
+<p>生年月日と、わかる場合は出生地の市区町村名を記載します。これは歴史的な背景を提供し、家系をたどるご家族や同郷の方々にとって特に意味深いものとなります。</p>
 
-<h3>Date and Place of Death</h3>
-<p>State when and where the person passed away. You may also note whether they died at home, in a hospital, or in another setting, though this is optional and should align with the family's comfort level.</p>
+<h3>逝去日と逝去場所</h3>
+<p>いつ、どこで亡くなられたかを記載します。自宅、病院、その他の場所で亡くなられたことを記す場合もありますが、これは任意であり、ご家族の意向に沿うべきです。</p>
 
-<h3>Cause of Death (Optional)</h3>
-<p>Including the cause of death is a family decision. Some families choose to share this information openly, while others prefer privacy. There is no obligation either way. If you do include it, you can be as specific or general as feels appropriate.</p>
+<h3>死因（任意）</h3>
+<p>死因を記載するかどうかは、ご家族の判断です。公開を選ぶご家族もあれば、プライバシーを重視するご家族もあります。どちらでも問題ありません。記載する場合は、適切と感じられる範囲で具体的にも一般的にも書くことができます。</p>
 
-<h2>Life Story and Background</h2>
+<h2>生涯と経歴</h2>
 
-<h3>Early Life and Education</h3>
-<p>Briefly describe the person's upbringing. Where did they grow up? What schools did they attend? Did they earn any degrees or certifications? These details anchor the reader in the person's origins and help tell the story of how they became who they were.</p>
+<h3>生い立ちと学歴</h3>
+<p>故人の生い立ちを簡潔に記述します。どこで育ちましたか？どの学校に通いましたか？取得した学位や資格はありますか？これらの情報は、読者を故人のルーツに結びつけ、その方がどのようにして自分自身を形成していったかの物語を伝える助けとなります。</p>
 
-<h3>Career and Professional Life</h3>
-<p>Mention significant jobs, careers, or professional accomplishments. If they worked at the same company for decades, that loyalty is worth noting. If they changed careers in a meaningful way — say, leaving corporate life to become a teacher — that story speaks to their values. Include military service here as well, noting branch, rank, and any honors received.</p>
+<h3>職歴と専門的な活動</h3>
+<p>重要な職務、キャリア、専門的な功績について言及します。同じ会社に何十年も勤務した場合、その忠誠心は記す価値があります。意味のある転職をした場合 — たとえば企業から教職に転じた場合 — そのエピソードは故人の価値観を物語ります。軍歴もここに含め、所属、階級、受けた栄誉を記載しましょう。</p>
 
-<h3>Marriage and Family</h3>
-<p>Note when and where they married, and mention their spouse by name. This is also a natural place to introduce the family structure that will be detailed in the survivors section. If the person was widowed or remarried, include that context as appropriate.</p>
+<h3>結婚とご家族</h3>
+<p>いつ、どこで結婚したかを記し、配偶者の名前を記載します。ここは、遺族のセクションで詳述する家族構成を紹介する自然な場所でもあります。配偶者に先立たれた場合や再婚した場合は、適宜その背景も含めましょう。</p>
 
-<h2>Personal Touches</h2>
+<h2>個人的なエピソード</h2>
 
-<h3>Hobbies, Passions, and Interests</h3>
-<p>This is where an obituary truly comes to life. What did the person love to do? Were they an avid reader, a weekend fisherman, a passionate cook, a dedicated quilter? Did they follow a particular sports team with unwavering loyalty? These details are what friends and neighbors remember most and what make the obituary feel authentic.</p>
+<h3>趣味、情熱、関心事</h3>
+<p>訃報が本当に生き生きとするのはこの部分です。故人は何をするのが好きでしたか？読書家でしたか、週末の釣り人でしたか、料理に情熱を注いでいましたか、手芸に打ち込んでいましたか？特定のスポーツチームを揺るぎない忠誠心で応援していましたか？こうした情報こそ、友人や近隣の方々が最もよく覚えていることであり、訃報に真実味を与えるものです。</p>
 
-<h3>Personality Traits and Values</h3>
-<p>Describe the qualities that defined the person. Were they known for their generosity? Their sense of humor? Their quiet strength? A few well-chosen descriptors can paint a vivid picture. Rather than simply listing traits, try to illustrate them with brief examples or anecdotes.</p>
+<h3>人柄と価値観</h3>
+<p>故人を定義づけた資質を描写しましょう。寛大さで知られていましたか？ユーモアのセンスで？静かな強さで？いくつかの的確な表現が、鮮やかな肖像を描き出します。単に特徴を列挙するのではなく、簡単な例やエピソードで裏付けるようにしましょう。</p>
 
-<h3>Community Involvement</h3>
-<p>Mention memberships in clubs, organizations, religious congregations, or civic groups. Note any volunteer work, leadership roles, or causes they championed. Community involvement often reflects a person's core values and shows how they contributed to the world around them.</p>
+<h3>地域活動への参加</h3>
+<p>クラブ、団体、宗教コミュニティ、市民活動への参加について言及しましょう。ボランティア活動、リーダーとしての役割、支持していた活動なども記載します。地域活動への参加は、その方の根本的な価値観を反映し、周囲の世界にどのように貢献したかを示すことが多いです。</p>
 
-<h3>Anecdotes and Memorable Moments</h3>
-<p>A short story or memorable quote can be the most powerful part of an obituary. Perhaps they had a saying they repeated often, or there was a moment that perfectly captured their character. These narrative elements give readers a window into the person's lived experience.</p>
+<h3>エピソードと思い出に残る瞬間</h3>
+<p>短いエピソードや忘れられない言葉は、訃報の中で最も心に響く部分になり得ます。よく繰り返していた口癖があったかもしれませんし、その人柄を完璧に捉えた出来事があったかもしれません。こうした語りの要素が、読者に故人の実体験をかいま見せる窓となります。</p>
 
-<h2>Survivors and Predeceased</h2>
+<h2>ご遺族と先立たれた方々</h2>
 
-<h3>Surviving Family Members</h3>
-<p>List the names of those who survive the deceased. The typical order is:</p>
+<h3>ご遺族</h3>
+<p>故人より後に残されたご遺族の名前を記載します。一般的な順序は次の通りです：</p>
 <ul>
-<li>Spouse or partner</li>
-<li>Children (and their spouses or partners)</li>
-<li>Grandchildren and great-grandchildren</li>
-<li>Parents (if still living)</li>
-<li>Siblings (and their spouses)</li>
-<li>Other significant relatives or close friends, at the family's discretion</li>
+<li>配偶者またはパートナー</li>
+<li>子ども（およびその配偶者やパートナー）</li>
+<li>孫、ひ孫</li>
+<li>ご両親（ご健在の場合）</li>
+<li>きょうだい（およびその配偶者）</li>
+<li>ご家族の判断により、その他の重要な親族や親しい友人</li>
 </ul>
-<p>Be thorough and careful with this list. Omitting someone, even accidentally, can cause significant pain.</p>
+<p>このリストは漏れなく慎重に作成してください。うっかり誰かを省いてしまうと、大きな苦痛を与える恐れがあります。</p>
 
-<h3>Predeceased Family Members</h3>
-<p>Note family members who passed away before the deceased. This typically includes parents, a spouse, siblings, or children. This section acknowledges important relationships and provides a sense of the losses the person experienced during their lifetime.</p>
+<h3>先立たれたご家族</h3>
+<p>故人より先に亡くなられたご家族について記載します。通常、両親、配偶者、きょうだい、または子どもが含まれます。このセクションは、重要な人間関係を認め、故人が生涯を通じて経験した喪失を伝えるものです。</p>
 
-<h2>Service and Memorial Information</h2>
+<h2>告別式・追悼式の情報</h2>
 
-<h3>Funeral or Memorial Service Details</h3>
-<p>Include the date, time, and location of any planned services. Specify whether the service is open to the public or restricted to family. If there will be a visitation or viewing before the service, include those details as well.</p>
+<h3>葬儀・告別式の詳細</h3>
+<p>予定されている式典の日時と場所を記載します。一般に公開されるか、ご家族のみかを明記してください。通夜やお別れの会がある場合は、その詳細も含めましょう。</p>
 
-<h3>Burial or Cremation Information</h3>
-<p>Note where the burial will take place or, if the person was cremated, whether there will be a scattering ceremony or interment of ashes. Some families prefer to keep this information private, which is perfectly acceptable.</p>
+<h3>埋葬・火葬の情報</h3>
+<p>埋葬の場所、または火葬の場合は散骨の儀式や納骨の予定を記載します。この情報を非公開にしたいご家族もいらっしゃいますが、それはまったく問題ありません。</p>
 
-<h3>Charitable Donations</h3>
-<p>If the family prefers donations to a specific organization in lieu of flowers, state this clearly. Include the full name of the organization and, if possible, a link or address for contributions. This directs the generosity of friends and community members toward causes the deceased cared about.</p>
+<h3>寄付のお願い</h3>
+<p>供花の代わりに特定の団体への寄付をご家族が希望される場合は、その旨を明記しましょう。団体の正式名称と、可能であれば寄付先のリンクまたは住所を記載します。これにより、友人や地域の方々の善意を、故人が大切にしていた活動に向けることができます。</p>
 
-<h3>Online Condolences</h3>
-<p>If there is a memorial website, online guestbook, or dedicated page where people can leave messages, include the link. This extends the opportunity for people to share memories beyond the printed notice.</p>
+<h3>オンラインでのお悔やみ</h3>
+<p>追悼ウェブサイト、オンライン芳名帳、メッセージを残せる専用ページがある場合は、リンクを記載しましょう。印刷された訃報を超えて、より多くの方が思い出を共有できる場を提供します。</p>
 
-<h2>Optional Elements</h2>
+<h2>任意の要素</h2>
 
-<h3>A Photograph</h3>
-<p>While not part of the written text, selecting a good photograph is an important part of the obituary. Choose an image that captures the person as they were known — a warm smile, a candid moment, or a formal portrait, depending on what feels right.</p>
+<h3>写真</h3>
+<p>文章の一部ではありませんが、適切な写真を選ぶことは訃報の重要な要素です。温かい笑顔、自然な瞬間、フォーマルな肖像など、故人の印象にふさわしいと感じられる画像を選びましょう。</p>
 
-<h3>A Favorite Quote, Poem, or Scripture</h3>
-<p>Some families choose to open or close the obituary with a meaningful passage. This could be a line from a favorite book, a verse from scripture, a song lyric reference, or a personal motto. Choose something that genuinely resonated with the deceased.</p>
+<h3>好きだった言葉、詩、聖典の一節</h3>
+<p>訃報の冒頭や結びに、意味のある一節を添えるご家族もいらっしゃいます。好きな本の一文、聖典の一節、歌への言及、座右の銘などが考えられます。故人の心に真に響いていたものを選びましょう。</p>
 
-<h3>A Personal Sign-Off</h3>
-<p>Some obituaries end with a brief personal note from the family, such as: "The family wishes to thank the staff at St. Mary's Hospital for their compassionate care." This adds a human touch and acknowledges those who supported the family during a difficult time.</p>
+<h3>ご家族からのメッセージ</h3>
+<p>訃報の最後に、ご家族からの短いメッセージを添えることもあります。例：「家族一同、○○病院のスタッフの皆さまの温かいご看護に心から感謝申し上げます。」このような一言が人間味を加え、困難な時期にご家族を支えた方々への感謝を表します。</p>
 
-<h2>Putting It All Together</h2>
-<p>Not every obituary needs to include every element listed here. The goal is to create a tribute that feels complete and true to the person. Use this guide as a reference, selecting the elements that best serve the story you want to tell.</p>
-<p>If you would like a structured starting point, <a href="/templates">browse our obituary templates</a> for frameworks tailored to different relationships and styles. You can also use our <a href="/create">obituary creator</a> to build your tribute step by step, ensuring you include all the details that matter most.</p>
+<h2>すべてをまとめる</h2>
+<p>すべての訃報がここに挙げたすべての要素を含む必要はありません。大切なのは、その方の人生に忠実で、完全だと感じられる追悼文を作成することです。このガイドを参考にし、伝えたい物語に最もふさわしい要素を選んでください。</p>
+<p>体系的な出発点をお求めの場合は、さまざまな関係性やスタイルに対応した<a href="/templates">訃報テンプレート一覧</a>をご覧ください。また、<a href="/create">訃報作成ツール</a>を使って、最も大切な情報をすべて含めながら、ステップバイステップで追悼文を作成することもできます。</p>
 `,
   },
   {
     slug: "types-of-obituaries",
-    title: "Different Types of Obituaries Explained",
+    title: "訃報の種類と特徴",
     description:
-      "An overview of the various obituary formats — from traditional newspaper notices to modern online tributes — and guidance on choosing the right one for your needs.",
+      "伝統的な新聞掲載の訃報から現代的なオンライン追悼まで、さまざまな訃報の形式を概説し、ニーズに合った形式の選び方をご案内します。",
     readingTime: 6,
     content: `
-<h2>Introduction</h2>
-<p>Not all obituaries look the same, and that is by design. The format, length, and style of an obituary can vary widely depending on the publication, the family's preferences, and the purpose of the notice. Understanding the different types of obituaries helps you choose the approach that best honors your loved one and meets your practical needs.</p>
-<p>This guide explains the most common types of obituaries, highlights the differences between them, and offers guidance on when each format is most appropriate.</p>
+<h2>はじめに</h2>
+<p>すべての訃報が同じ形式というわけではなく、それは意図的なものです。訃報のフォーマット、長さ、スタイルは、掲載媒体、ご家族の希望、告知の目的によって大きく異なります。訃報の種類を理解することで、大切な方を最もよく称え、実際のニーズを満たすアプローチを選ぶことができます。</p>
+<p>このガイドでは、最も一般的な訃報の種類を説明し、それぞれの違いを明らかにし、どの形式がどのような場面に適しているかをご案内します。</p>
 
-<h2>Death Notice</h2>
-<p>A death notice is the shortest and most straightforward type of obituary. It typically includes only the basic facts: the person's name, date of death, and details about the funeral or memorial service. Death notices are often placed by the funeral home on behalf of the family and are published in local newspapers or online directories.</p>
-<h3>When to Use a Death Notice</h3>
+<h2>死亡通知</h2>
+<p>死亡通知は、最も短く簡潔な訃報の形式です。通常、基本的な事実のみを含みます：故人の氏名、逝去日、葬儀・告別式の詳細です。死亡通知は、ご家族に代わって葬儀社が作成することが多く、地方紙やオンラインディレクトリに掲載されます。</p>
+<h3>死亡通知を使うべき場面</h3>
 <ul>
-<li>When the family prefers privacy and wants to limit the amount of personal information shared publicly</li>
-<li>When budget is a concern, as newspaper death notices are usually charged by the line and are the least expensive option</li>
-<li>When a more detailed obituary will be published elsewhere, such as on a memorial website, and the death notice simply directs readers to that location</li>
+<li>ご家族がプライバシーを重視し、公開する個人情報を最小限にしたい場合</li>
+<li>予算が限られている場合。新聞の死亡通知は通常行数で課金され、最も費用を抑えられる選択肢です</li>
+<li>追悼ウェブサイトなど別の場所に詳細な訃報を掲載する予定で、死亡通知はそちらへの案内としてのみ使用する場合</li>
 </ul>
-<h3>What a Death Notice Typically Includes</h3>
+<h3>死亡通知に含まれる一般的な内容</h3>
 <ul>
-<li>Full name of the deceased</li>
-<li>Date of death (and sometimes date of birth)</li>
-<li>City or town of residence</li>
-<li>Funeral or memorial service information</li>
-<li>Name of the funeral home handling arrangements</li>
-</ul>
-
-<h2>Traditional Newspaper Obituary</h2>
-<p>The traditional newspaper obituary is what most people picture when they think of an obituary. It is more detailed than a death notice and includes a life summary, a list of survivors, and service information. These obituaries are published in print newspapers and often on the newspaper's website as well.</p>
-<h3>When to Use a Traditional Newspaper Obituary</h3>
-<ul>
-<li>When the deceased was well-known in a particular community and you want to reach local readers</li>
-<li>When the family wants a formal, structured tribute that follows a recognized format</li>
-<li>When the obituary needs to serve as both an announcement and a brief biography</li>
-</ul>
-<h3>Length and Cost Considerations</h3>
-<p>Newspaper obituaries are typically charged by the word or by the line, and costs can add up quickly. Most traditional obituaries run between 200 and 500 words. Some newspapers impose length limits, while others charge a premium for longer notices. Always check with the publication about pricing and formatting guidelines before writing.</p>
-
-<h2>Feature-Length Obituary</h2>
-<p>A feature-length obituary goes beyond the basics to tell the full story of a person's life. These are longer, more detailed, and often read like a short biography or a personal essay. They include anecdotes, quotes, and in-depth descriptions of the person's character, achievements, and impact.</p>
-<h3>When to Use a Feature-Length Obituary</h3>
-<ul>
-<li>When the person lived a particularly notable, eventful, or inspiring life</li>
-<li>When the family wants a comprehensive tribute that captures the full depth of the person's character</li>
-<li>When the obituary will be published on a personal website, memorial page, or platform without word-count restrictions</li>
-</ul>
-<h3>Writing a Feature-Length Obituary</h3>
-<p>This format requires more time and effort but yields a deeply personal result. Gather stories from multiple family members and friends. Organize the content thematically or chronologically. Allow yourself space to describe not just what the person did, but who they were.</p>
-<p>If you want a framework to help you organize a detailed tribute, our <a href="/templates">obituary templates</a> offer structured starting points that you can expand upon.</p>
-
-<h2>Online or Digital Obituary</h2>
-<p>With the rise of digital media, online obituaries have become increasingly popular. These are published on memorial websites, funeral home pages, social media platforms, or dedicated obituary sites. Online obituaries offer several advantages over print.</p>
-<h3>Advantages of Online Obituaries</h3>
-<ul>
-<li>No word-count limits, allowing for a more complete tribute</li>
-<li>The ability to include photographs, videos, and audio clips</li>
-<li>Interactive features such as guestbooks, candle-lighting, and memory-sharing</li>
-<li>Wider reach, as they can be shared via email and social media</li>
-<li>Permanent availability, unlike print notices that may not be archived</li>
-</ul>
-<h3>When to Use an Online Obituary</h3>
-<ul>
-<li>When the family and friends are geographically dispersed and a local newspaper would not reach everyone</li>
-<li>When you want to include multimedia elements that a print publication cannot accommodate</li>
-<li>When you want an enduring tribute that remains accessible for years</li>
-</ul>
-<p>Our <a href="/create">obituary creator</a> is designed to help you build a polished online tribute with all the elements you need.</p>
-
-<h2>Funeral Program Obituary</h2>
-<p>A funeral program obituary is written specifically for the printed program distributed at the memorial service. It is tailored to the audience — people who are present at the service and already know the deceased — so it often takes a more personal, reflective tone.</p>
-<h3>What Makes It Different</h3>
-<p>Unlike a newspaper obituary, which serves as a public announcement, the funeral program obituary is an intimate document. It may include personal messages from the family, favorite poems or scripture, and a more emotional recounting of the person's life. It is often accompanied by a timeline of the service, the names of pallbearers, and acknowledgments.</p>
-<h3>Length and Tone</h3>
-<p>Funeral program obituaries are usually concise — one to two pages at most — but carry a warmer, more reflective tone than their newspaper counterparts. They speak directly to those who gathered to honor the person.</p>
-
-<h2>Social Media Tribute</h2>
-<p>While not a traditional obituary in the formal sense, social media tributes have become a common way for individuals to announce a death and share memories. Posts on platforms like Facebook, Instagram, or community groups allow friends and acquaintances to learn of the passing, share condolences, and contribute their own stories.</p>
-<h3>Best Practices for Social Media Tributes</h3>
-<ul>
-<li>Confirm with the immediate family before posting publicly. The family should be the first to share the news.</li>
-<li>Keep the post respectful and consider the wide audience that may see it.</li>
-<li>Include a link to the formal obituary or memorial page for those who want more information or wish to send condolences.</li>
-<li>Be mindful of privacy — avoid sharing details the family has not made public.</li>
+<li>故人の氏名</li>
+<li>逝去日（場合により生年月日も）</li>
+<li>居住していた市区町村</li>
+<li>葬儀・告別式の情報</li>
+<li>手配を担当する葬儀社名</li>
 </ul>
 
-<h2>Choosing the Right Type</h2>
-<p>In many cases, families use a combination of these formats. A short death notice might run in the local newspaper, a full obituary might be published on a memorial website, and a personal tribute might be shared on social media. There is no single right approach. Consider your audience, your budget, and what best honors the person's memory.</p>
-<p>If you are unsure where to start, <a href="/templates">explore our template collection</a> for examples that span a range of styles and lengths. Each template can be adapted to fit whatever format you choose.</p>
+<h2>伝統的な新聞訃報</h2>
+<p>伝統的な新聞訃報は、多くの方が「訃報」と聞いて思い浮かべるものです。死亡通知より詳細で、人生の概要、ご遺族の一覧、式典の情報を含みます。印刷された新聞に掲載され、多くの場合、新聞社のウェブサイトにも掲載されます。</p>
+<h3>新聞訃報を使うべき場面</h3>
+<ul>
+<li>故人が特定のコミュニティでよく知られており、地域の読者に届けたい場合</li>
+<li>認知された形式に沿った格式ある体系的な追悼文をご家族が望む場合</li>
+<li>訃報が告知と簡潔な伝記の両方の役割を果たす必要がある場合</li>
+</ul>
+<h3>長さと費用について</h3>
+<p>新聞訃報は通常、文字数や行数で課金され、費用はすぐに膨らむ可能性があります。一般的な訃報は200〜500語程度です。文字数制限を設ける新聞もあれば、長い告知に割増料金を課す新聞もあります。執筆前に必ず掲載先の料金とフォーマットのガイドラインを確認してください。</p>
+
+<h2>特集記事型の訃報</h2>
+<p>特集記事型の訃報は、基本情報を超えて、故人の人生の全容を語るものです。より長く、より詳細で、短い伝記やエッセイのように読まれることが多いです。エピソード、引用、人柄・功績・影響についての詳細な描写を含みます。</p>
+<h3>特集記事型の訃報を使うべき場面</h3>
+<ul>
+<li>故人が特に注目に値する、多彩な、あるいは感動的な人生を送った場合</li>
+<li>ご家族が故人の人格の深みを完全に捉えた包括的な追悼文を望む場合</li>
+<li>訃報が個人ウェブサイト、追悼ページ、または文字数制限のないプラットフォームに掲載される場合</li>
+</ul>
+<h3>特集記事型の訃報を書くには</h3>
+<p>この形式はより多くの時間と労力を要しますが、非常に個人的な仕上がりになります。複数のご家族や友人からエピソードを集めましょう。内容をテーマ別または時系列で整理します。故人が何をしたかだけでなく、どのような方であったかを描写するスペースを確保しましょう。</p>
+<p>詳細な追悼文を整理するための枠組みが必要な場合は、<a href="/templates">訃報テンプレート</a>が体系的な出発点を提供し、それを基に拡充することができます。</p>
+
+<h2>オンライン・デジタル訃報</h2>
+<p>デジタルメディアの普及に伴い、オンライン訃報はますます一般的になっています。追悼ウェブサイト、葬儀社のページ、ソーシャルメディア、専門の訃報サイトに掲載されます。オンライン訃報には、印刷版にはないいくつかの利点があります。</p>
+<h3>オンライン訃報の利点</h3>
+<ul>
+<li>文字数制限がなく、より充実した追悼文を作成できる</li>
+<li>写真、動画、音声クリップを含められる</li>
+<li>芳名帳、献灯、思い出の共有などのインタラクティブな機能がある</li>
+<li>メールやソーシャルメディアで共有でき、より広い範囲に届く</li>
+<li>アーカイブされない可能性のある印刷媒体と異なり、永続的に閲覧可能</li>
+</ul>
+<h3>オンライン訃報を使うべき場面</h3>
+<ul>
+<li>ご家族や友人が地理的に分散しており、地方紙では全員に届かない場合</li>
+<li>印刷媒体では対応できないマルチメディア要素を含めたい場合</li>
+<li>何年も閲覧可能な永続的な追悼文にしたい場合</li>
+</ul>
+<p><a href="/create">訃報作成ツール</a>は、必要なすべての要素を備えた洗練されたオンライン追悼文の作成をサポートするために設計されています。</p>
+
+<h2>葬儀式次第用の訃報</h2>
+<p>葬儀式次第用の訃報は、告別式で配布される印刷プログラム向けに書かれたものです。式に出席し、すでに故人を知っている方々を対象としているため、より個人的で内省的なトーンになることが多いです。</p>
+<h3>他の訃報との違い</h3>
+<p>公の告知としての新聞訃報とは異なり、葬儀式次第の訃報は親密な文書です。ご家族からのメッセージ、好きだった詩や聖典の一節、より感情的な人生の振り返りが含まれることがあります。式典のスケジュール、棺を担ぐ方の氏名、謝辞が添えられることも一般的です。</p>
+<h3>長さとトーン</h3>
+<p>葬儀式次第の訃報は通常、1〜2ページ程度の簡潔なものですが、新聞訃報よりも温かく内省的なトーンを持ちます。故人を偲ぶために集まった方々に直接語りかける文章です。</p>
+
+<h2>ソーシャルメディアでの追悼</h2>
+<p>正式な意味での伝統的な訃報ではありませんが、ソーシャルメディアでの追悼投稿は、逝去を知らせ思い出を共有する一般的な方法になっています。Facebook、Instagram、コミュニティグループなどへの投稿により、友人や知人が訃報を知り、お悔やみを述べ、自身のエピソードを共有することができます。</p>
+<h3>ソーシャルメディアでの追悼のベストプラクティス</h3>
+<ul>
+<li>公に投稿する前に、直近のご家族に確認してください。訃報の最初の発信はご家族が行うべきです。</li>
+<li>投稿は敬意を持って書き、幅広い読者の目に触れることを意識してください。</li>
+<li>正式な訃報や追悼ページへのリンクを含め、詳細を知りたい方やお悔やみを伝えたい方が参照できるようにしましょう。</li>
+<li>プライバシーに配慮し、ご家族が公開していない情報は共有しないでください。</li>
+</ul>
+
+<h2>適切な形式の選び方</h2>
+<p>多くの場合、ご家族はこれらの形式を組み合わせて使用します。地方紙に短い死亡通知を掲載し、追悼ウェブサイトに完全な訃報を公開し、ソーシャルメディアで個人的な追悼文を共有するなどです。唯一の正解はありません。対象となる読者、予算、そして故人の記憶を最もよく称える方法を考慮してください。</p>
+<p>どこから始めればよいかわからない場合は、さまざまなスタイルと長さにわたる<a href="/templates">テンプレートコレクション</a>をご覧ください。各テンプレートは、どの形式にも適応させることができます。</p>
 `,
   },
   {
     slug: "cultural-religious-considerations",
-    title: "Cultural and Religious Considerations in Obituary Writing",
+    title: "訃報を書く際の文化的・宗教的配慮",
     description:
-      "Guidance on respecting cultural traditions and religious customs when writing obituaries, covering practices across major faiths and cultural backgrounds.",
+      "訃報を書く際に文化的伝統や宗教的慣習を尊重するためのガイダンスです。主要な宗教や文化的背景にわたる慣行を解説します。",
     readingTime: 9,
     content: `
-<h2>Introduction</h2>
-<p>Obituaries do not exist in a vacuum. They are shaped by the cultural, religious, and spiritual traditions of the deceased and their family. What is considered respectful, appropriate, or even required in one tradition may differ significantly from another. Understanding these nuances is essential for writing an obituary that truly honors the person and provides comfort to their community.</p>
-<p>This guide offers an overview of key considerations across several major cultural and religious traditions. It is not exhaustive — every family is unique, and practices can vary widely even within a single tradition — but it provides a starting point for approaching the task with sensitivity and awareness.</p>
+<h2>はじめに</h2>
+<p>訃報は孤立して存在するものではありません。故人とそのご家族の文化的、宗教的、精神的な伝統によって形づくられます。ある伝統で敬意ある、適切、あるいは必要とされることが、別の伝統では大きく異なる場合があります。これらのニュアンスを理解することは、故人を真に称え、そのコミュニティに慰めを提供する訃報を書くために不可欠です。</p>
+<p>このガイドでは、主要な文化的・宗教的伝統にわたる重要な配慮事項の概要を提供します。網羅的なものではありません — すべてのご家族は独自であり、同じ伝統の中でも慣行は大きく異なることがあります — しかし、繊細さと意識をもってこの作業に取り組むための出発点となります。</p>
 
-<h2>Christian Traditions</h2>
-<h3>General Practices</h3>
-<p>Christian obituaries often reflect themes of hope, resurrection, and eternal life. Language such as "went to be with the Lord," "entered eternal rest," or "was welcomed into heaven" is common and provides comfort within this framework. Scripture passages, hymn references, and mentions of the person's faith journey are frequently included.</p>
-<h3>Catholic Considerations</h3>
-<p>Catholic obituaries may reference specific sacraments the person received, such as Last Rites or the Anointing of the Sick. The obituary often includes details about the funeral Mass, the parish where it will be held, and the priest who will officiate. Mentions of the Rosary or a vigil service the evening before the funeral are also common.</p>
-<h3>Protestant Considerations</h3>
-<p>Protestant traditions vary widely, from liturgical denominations like Lutherans and Episcopalians to more informal evangelical communities. The obituary should reflect the specific church culture the person belonged to. Some families may include a brief testimony of the person's faith or mention their active involvement in church ministries.</p>
+<h2>キリスト教の伝統</h2>
+<h3>一般的な慣行</h3>
+<p>キリスト教の訃報は、希望、復活、永遠の命というテーマを反映することが多いです。「主のもとへ召された」「永遠の安息に入られた」「天国に迎えられた」などの表現が一般的で、この信仰の枠組みの中で慰めを提供します。聖書の一節、賛美歌への言及、故人の信仰の歩みについての言及がしばしば含まれます。</p>
+<h3>カトリックでの配慮</h3>
+<p>カトリックの訃報では、終油の秘跡や病者の塗油など、故人が受けた特定の秘跡に言及することがあります。葬儀ミサ、それが行われる教区、司式する司祭についての詳細が含まれることが多いです。葬儀前夜のロザリオの祈りや通夜の集いへの言及も一般的です。</p>
+<h3>プロテスタントでの配慮</h3>
+<p>プロテスタントの伝統は、ルーテル教会や聖公会のような典礼的な教派から、より自由な福音派のコミュニティまで、幅広く異なります。訃報は、故人が属していた特定の教会文化を反映するべきです。故人の信仰の証しや教会活動への積極的な参加について簡潔に述べるご家族もいらっしゃいます。</p>
 
-<h2>Jewish Traditions</h2>
-<h3>Timing and Burial</h3>
-<p>In Jewish tradition, burial typically occurs as soon as possible after death, often within 24 to 48 hours. This urgency means the obituary may need to be written and published very quickly. Be prepared to work under a tight timeline.</p>
-<h3>Language and Tone</h3>
-<p>Jewish obituaries often include the Hebrew name of the deceased alongside their English name. The phrase "of blessed memory" (zichrono livracha for a man, zichronah livracha for a woman) may follow the person's name. The obituary may reference the person's contributions to the Jewish community, their observance of traditions, and their connection to Israel.</p>
-<h3>Shiva and Memorial Practices</h3>
-<p>Include information about the shiva — the mourning period observed at the family's home after the burial. Mention the dates, times, and location of shiva, as well as any requests regarding food, flowers (which are generally not customary), or charitable donations in the person's memory.</p>
+<h2>ユダヤ教の伝統</h2>
+<h3>時期と埋葬</h3>
+<p>ユダヤ教の伝統では、埋葬は死後できるだけ早く、通常24〜48時間以内に行われます。この緊急性は、訃報を非常に迅速に執筆・公開する必要があることを意味します。限られた時間内での作業に備えておきましょう。</p>
+<h3>言葉遣いとトーン</h3>
+<p>ユダヤ教の訃報では、英語名とともにヘブライ語名を記載することが多いです。「祝福された記憶の」（男性の場合はzichrono livracha、女性の場合はzichronah livracha）というフレーズが故人の名前に続くことがあります。訃報では、ユダヤ人コミュニティへの貢献、伝統の遵守、イスラエルとのつながりについて言及されることがあります。</p>
+<h3>シヴァと追悼の慣行</h3>
+<p>シヴァ — 埋葬後にご家族の自宅で行われる服喪期間 — についての情報を記載します。シヴァの日程、時間、場所を記し、食事、供花（一般的には慣習的ではありません）、故人を偲ぶ寄付に関する要望も含めましょう。</p>
 
-<h2>Islamic Traditions</h2>
-<h3>Burial Practices</h3>
-<p>Islamic tradition also calls for prompt burial, ideally within 24 hours of death. The body is ritually washed (ghusl) and wrapped in a simple white cloth (kafan). Obituaries should note the timing of the Janazah (funeral prayer) and burial, as community members will want to attend.</p>
-<h3>Language and Tone</h3>
-<p>Islamic obituaries often begin with "Inna lillahi wa inna ilayhi raji'un" (To God we belong and to Him we shall return). The tone is typically reverent and focused on the person's faith, character, and service to the community. Mention of the person's devotion to prayer, Hajj pilgrimage, charitable giving (zakat), and community leadership is common.</p>
-<h3>Cultural Sensitivity</h3>
-<p>Be aware that within Islam there is great cultural diversity — practices may vary between Arab, South Asian, African, Southeast Asian, and other Muslim communities. When in doubt, consult with the family or a local imam to ensure the obituary aligns with their specific traditions.</p>
+<h2>イスラーム教の伝統</h2>
+<h3>埋葬の慣行</h3>
+<p>イスラーム教の伝統でも、死後24時間以内の迅速な埋葬が求められます。遺体は儀式的に清められ（グスル）、白い布（カファン）に包まれます。訃報には、ジャナーザ（葬儀の祈り）と埋葬の時間を記載しましょう。コミュニティの方々が参列を希望されるためです。</p>
+<h3>言葉遣いとトーン</h3>
+<p>イスラーム教の訃報は、「インナー・リッラーヒ・ワ・インナー・イライヒ・ラージウーン」（まことに私たちはアッラーのものであり、まことにアッラーのもとに帰るのです）で始まることが多いです。トーンは一般的に敬虔で、故人の信仰、人柄、コミュニティへの貢献に焦点を当てます。礼拝への献身、ハッジ（巡礼）、ザカート（喜捨）、コミュニティでのリーダーシップへの言及が一般的です。</p>
+<h3>文化的な配慮</h3>
+<p>イスラーム教の中には大きな文化的多様性があることに留意してください — アラブ、南アジア、アフリカ、東南アジア、その他のムスリムコミュニティ間で慣行が異なることがあります。判断に迷った場合は、ご家族や地域のイマームに相談し、訃報がその方々の特定の伝統に沿ったものとなるようにしましょう。</p>
 
-<h2>Hindu Traditions</h2>
-<h3>Cremation and Rituals</h3>
-<p>In Hindu tradition, cremation is the most common practice and typically takes place within a day or two of death. The obituary may mention the cremation ceremony, the location, and who will perform the final rites. In some families, the eldest son traditionally lights the funeral pyre — a detail that may be referenced.</p>
-<h3>Language and Beliefs</h3>
-<p>Hindu obituaries often reflect beliefs in reincarnation and the eternal nature of the soul (atman). Phrases referencing the soul's journey or the cycle of birth and rebirth are appropriate. Mention of the person's devotion to particular deities, their participation in religious festivals, or their acts of dharma (righteous duty) may be included.</p>
-<h3>Memorial Period</h3>
-<p>Many Hindu families observe a mourning period of 13 days, during which visitors come to pay respects. The obituary should include information about when and where condolences can be offered, as well as any memorial prayer services planned during this period.</p>
+<h2>ヒンドゥー教の伝統</h2>
+<h3>火葬と儀式</h3>
+<p>ヒンドゥー教の伝統では、火葬が最も一般的な慣行であり、通常は死後1〜2日以内に行われます。訃報では、火葬の儀式、場所、最後の儀式を執り行う方について言及することがあります。一部のご家族では、伝統的に長男が火葬の火を点ける役割を担います。この点について触れることもあります。</p>
+<h3>言葉遣いと信仰</h3>
+<p>ヒンドゥー教の訃報は、輪廻転生と魂（アートマン）の永遠性への信仰を反映することが多いです。魂の旅路や生と再生の輪廻に言及するフレーズが適切です。特定の神への帰依、宗教的祭事への参加、ダルマ（正しい義務）の実践について言及されることもあります。</p>
+<h3>服喪期間</h3>
+<p>多くのヒンドゥー教のご家族は、13日間の服喪期間を設け、その間に弔問客が訪れます。訃報には、いつ、どこでお悔やみを述べることができるか、またこの期間中に予定されている追悼の祈りの式典についての情報を含めるべきです。</p>
 
-<h2>Buddhist Traditions</h2>
-<h3>Approach to Death</h3>
-<p>Buddhism views death as a natural transition rather than an ending. Obituaries written within a Buddhist context may reflect themes of impermanence, compassion, and the continuation of the person's spiritual journey. The tone is often serene and accepting rather than sorrowful.</p>
-<h3>Funeral Practices</h3>
-<p>Buddhist funeral practices vary greatly depending on the tradition (Theravada, Mahayana, Zen, Tibetan, etc.) and the cultural background of the family. Some traditions favor cremation, while others practice burial. Chanting, meditation, and offerings may be part of the funeral service. Include relevant details so attendees know what to expect.</p>
+<h2>仏教の伝統</h2>
+<h3>死への向き合い方</h3>
+<p>仏教では、死は終わりではなく自然な移行として捉えられます。仏教の文脈で書かれた訃報は、無常、慈悲、そして故人の精神的な旅の継続というテーマを反映することがあります。トーンは、悲嘆よりも穏やかで受容的なものになることが多いです。</p>
+<h3>葬儀の慣行</h3>
+<p>仏教の葬儀の慣行は、宗派（上座部仏教、大乗仏教、禅宗、チベット仏教など）やご家族の文化的背景によって大きく異なります。火葬を好む伝統もあれば、埋葬を行う伝統もあります。読経、瞑想、お供えが葬儀の一部となることがあります。参列者が何を期待すべきかわかるよう、関連する詳細を含めましょう。</p>
 
-<h2>Secular and Non-Religious Obituaries</h2>
-<h3>Celebrating a Life Without Religious Language</h3>
-<p>Not everyone identifies with a religious tradition, and a secular obituary is just as meaningful and valid. Focus on the person's values, relationships, achievements, and passions. Instead of religious phrases, you might use language like "lived fully," "leaves a lasting legacy," or "will be deeply missed by all who knew them."</p>
-<h3>Tone and Approach</h3>
-<p>Secular obituaries can be warm, humorous, reflective, or matter-of-fact — whatever best reflects the person. Without a religious framework to provide structure, you have more freedom to craft the tone entirely around the individual's personality. This can result in some of the most creative and personal obituaries.</p>
+<h2>世俗的・無宗教の訃報</h2>
+<h3>宗教的表現を使わない人生の祝福</h3>
+<p>すべての方が宗教的な伝統を持つわけではなく、世俗的な訃報も同様に意味深く有効です。故人の価値観、人間関係、功績、情熱に焦点を当てましょう。宗教的なフレーズの代わりに、「充実した人生を送った」「永続的な遺産を残す」「知る人すべてに深く惜しまれる」などの表現を使うことができます。</p>
+<h3>トーンとアプローチ</h3>
+<p>世俗的な訃報は、温かく、ユーモラスに、内省的に、あるいは事実に即して — 故人を最もよく反映するスタイルで書くことができます。宗教的な枠組みによる構造がないため、トーンを完全に故人の人柄に合わせて自由に構成できます。これにより、最も創造的で個性的な訃報が生まれることもあります。</p>
 
-<h2>Multicultural and Interfaith Families</h2>
-<p>Many modern families span multiple cultural and religious backgrounds. Writing an obituary for someone in a multicultural family requires thoughtful navigation. Consider the following:</p>
+<h2>多文化・異宗教間のご家族</h2>
+<p>現代の多くのご家族は、複数の文化的・宗教的背景にまたがっています。多文化家族の方の訃報を書くには、慎重な配慮が必要です。以下の点を考慮してください：</p>
 <ul>
-<li>Discuss with all branches of the family to understand which traditions they would like honored in the obituary.</li>
-<li>Acknowledge the person's diverse heritage. If they celebrated both Christmas and Diwali, for example, mentioning both reflects the fullness of their life.</li>
-<li>Use inclusive language that respects multiple traditions without diminishing any of them.</li>
-<li>If the memorial service will incorporate elements from different traditions, describe this in the obituary so attendees can prepare.</li>
+<li>ご家族のすべての方面と話し合い、訃報でどの伝統を尊重してほしいかを理解しましょう。</li>
+<li>故人の多様な文化的背景を認めましょう。クリスマスとディワリの両方を祝っていた場合、両方に触れることがその方の人生の豊かさを反映します。</li>
+<li>複数の伝統を尊重し、いずれも軽んじることのない包括的な言葉遣いを心がけましょう。</li>
+<li>追悼式が異なる伝統の要素を取り入れる場合は、参列者が準備できるよう、訃報にその旨を記載しましょう。</li>
 </ul>
 
-<h2>General Guidelines Across All Traditions</h2>
+<h2>すべての伝統に共通するガイドライン</h2>
 <ul>
-<li>When in doubt, ask the family. They are the best source of guidance on what is appropriate and meaningful.</li>
-<li>Consult with religious leaders — a priest, rabbi, imam, pandit, or monk — if you are unfamiliar with specific customs.</li>
-<li>Be respectful of traditions you may not fully understand. Approach unfamiliar practices with curiosity rather than judgment.</li>
-<li>Avoid making assumptions based on someone's name, appearance, or background. Ask directly about their beliefs and preferences.</li>
-<li>Remember that within every tradition, there is a spectrum of observance. Not every Catholic family wants the same things, and not every Jewish family follows the same customs.</li>
+<li>迷ったときは、ご家族に尋ねてください。何が適切で意味があるかについて、ご家族が最良の判断の源です。</li>
+<li>特定の慣習に不慣れな場合は、宗教指導者 — 司祭、ラビ、イマーム、僧侶など — に相談しましょう。</li>
+<li>十分に理解できない伝統にも敬意を払いましょう。馴染みのない慣行には、批判ではなく好奇心をもって臨んでください。</li>
+<li>名前、外見、背景から思い込みをしないでください。信仰や希望について直接お尋ねしましょう。</li>
+<li>どの伝統の中にも、信仰の度合いには幅があることを忘れないでください。すべてのカトリックのご家族が同じことを望むわけではなく、すべてのユダヤ教のご家族が同じ慣習に従うわけではありません。</li>
 </ul>
 
-<h2>Using Templates as a Starting Point</h2>
-<p>If you are writing an obituary within a specific cultural or religious context, a template can provide a helpful structure while leaving room for customization. <a href="/templates">Browse our collection of obituary templates</a> to find one that aligns with the tradition you are working within, then tailor it to the family's specific wishes and the deceased's unique life story.</p>
-<p>Our <a href="/create">obituary creator</a> also allows you to build a tribute step by step, giving you the flexibility to incorporate cultural and religious elements at every stage.</p>
+<h2>テンプレートを出発点として活用する</h2>
+<p>特定の文化的・宗教的文脈で訃報を書く場合、テンプレートはカスタマイズの余地を残しながら有用な構成を提供します。<a href="/templates">訃報テンプレートのコレクション</a>から、取り組んでいる伝統に合ったものを見つけ、ご家族の具体的なご要望と故人の独自の人生に合わせてカスタマイズしてください。</p>
+<p><a href="/create">訃報作成ツール</a>では、ステップバイステップで追悼文を作成でき、あらゆる段階で文化的・宗教的な要素を取り入れる柔軟性があります。</p>
 
-<h2>Conclusion</h2>
-<p>Writing an obituary that respects cultural and religious traditions is an act of care — not just for the deceased, but for everyone who will read the tribute and find comfort in it. By approaching the task with sensitivity, seeking guidance when needed, and honoring the beliefs and customs that shaped the person's life, you can create an obituary that truly serves its purpose: to remember, to celebrate, and to bring a community together in grief and gratitude.</p>
+<h2>おわりに</h2>
+<p>文化的・宗教的伝統を尊重した訃報を書くことは、思いやりの行為です — 故人に対してだけでなく、追悼文を読んで慰めを見いだすすべての方に対しても。繊細さをもって取り組み、必要に応じて助言を求め、故人の人生を形づくった信仰や慣習を尊重することで、訃報の本来の目的を果たす追悼文を作成することができます。それは、記憶すること、祝福すること、そして悲しみと感謝の中でコミュニティを結びつけることです。</p>
 `,
   },
 ];

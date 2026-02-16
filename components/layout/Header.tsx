@@ -1,19 +1,22 @@
 "use client";
 
-import Link from "next/link";
 import { useState } from "react";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-
-const navLinks = [
-  { href: "/templates", label: "Templates" },
-  { href: "/create", label: "Create" },
-  { href: "/guides", label: "Writing Guides" },
-  { href: "/about", label: "About" },
-];
+import { LanguageSwitcher } from "./LanguageSwitcher";
 
 export function Header() {
   const [open, setOpen] = useState(false);
+  const t = useTranslations("nav");
+
+  const navLinks = [
+    { href: "/templates" as const, label: t("templates") },
+    { href: "/create" as const, label: t("create") },
+    { href: "/guides" as const, label: t("writingGuides") },
+    { href: "/about" as const, label: t("about") },
+  ];
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/50 bg-white/80 backdrop-blur-md">
@@ -36,7 +39,7 @@ export function Header() {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="hidden items-center gap-6 md:flex">
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -46,15 +49,17 @@ export function Header() {
               {link.label}
             </Link>
           ))}
+          <LanguageSwitcher />
           <Button asChild>
-            <Link href="/create">Create an Obituary</Link>
+            <Link href="/create">{t("createObituary")}</Link>
           </Button>
         </nav>
 
         {/* Mobile Navigation */}
         <div className="flex items-center gap-2 md:hidden">
+          <LanguageSwitcher />
           <Button asChild size="sm">
-            <Link href="/create">Create</Link>
+            <Link href="/create">{t("create")}</Link>
           </Button>
           <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger asChild>
@@ -68,7 +73,7 @@ export function Header() {
                 >
                   <path d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
-                <span className="sr-only">Open menu</span>
+                <span className="sr-only">{t("openMenu")}</span>
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-[280px]">

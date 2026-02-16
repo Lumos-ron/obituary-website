@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "title": "Create an Obituary",
+    "description": "Create a personalized obituary step by step with our free online tool."
+  },
+  "title": "Create an Obituary",
+  "subtitle": "Follow the steps below to create a personalized obituary",
+  "progress": {
+    "step": "Step {current} of {total}",
+    "complete": "{percent}% complete"
+  },
+  "steps": {
+    "relation": "Relation",
+    "info": "Info",
+    "life": "Life",
+    "family": "Family",
+    "photo": "Photo",
+    "service": "Service",
+    "style": "Style"
+  },
+  "step1": {
+    "title": "Who is this obituary for?"
+  },
+  "step2": {
+    "title": "Basic Information",
+    "fullName": "Full Name",
+    "fullNameRequired": "Full Name *",
+    "fullNamePlaceholder": "e.g., Margaret Elizabeth Johnson",
+    "dateOfBirth": "Date of Birth",
+    "dateOfPassing": "Date of Passing",
+    "dateOfPassingRequired": "Date of Passing *",
+    "age": "Age",
+    "agePlaceholder": "e.g., 78",
+    "cityOfResidence": "City of Residence",
+    "cityPlaceholder": "e.g., Portland, Oregon",
+    "placeOfBirth": "Place of Birth",
+    "placeOfBirthPlaceholder": "e.g., Springfield, Illinois",
+    "placeOfPassing": "Place of Passing",
+    "placeOfPassingPlaceholder": "e.g., at home, surrounded by family"
+  },
+  "step3": {
+    "title": "Life Highlights",
+    "occupation": "Occupation / Career",
+    "occupationPlaceholder": "e.g., Elementary school teacher",
+    "education": "Education",
+    "educationPlaceholder": "e.g., University of Illinois",
+    "militaryService": "Military Service",
+    "militaryPlaceholder": "e.g., the United States Army",
+    "hobbies": "Hobbies & Interests",
+    "otherHobbies": "Other hobbies (comma-separated)",
+    "customHobbiesPlaceholder": "Other hobbies (comma-separated)",
+    "characterTraits": "Character Traits",
+    "achievements": "Major Achievements",
+    "achievementsPlaceholder": "Notable achievements, awards, or contributions..."
+  },
+  "step4": {
+    "title": "Family Members",
+    "survivedBy": "Survived By",
+    "survivedByDesc": "List family members and loved ones who survive",
+    "precededBy": "Preceded in Death By",
+    "precededByDesc": "List family members who have previously passed",
+    "relationship": "Relationship",
+    "name": "Name",
+    "addAnother": "+ Add Another"
+  },
+  "step5": {
+    "title": "Photo & Design",
+    "description": "Upload a photo and choose a visual theme for your obituary. These will appear in the visual preview and exported image/PDF.",
+    "uploadPhoto": "Upload a Photo",
+    "photoDescription": "Upload a portrait photo of your loved one. This will be displayed in the header of your obituary.",
+    "uploadPhotoDesc": "Upload a portrait photo of your loved one. This will be displayed in the header of your obituary.",
+    "photoTipPortrait": "Portrait orientation works best",
+    "tipPortrait": "Portrait orientation works best",
+    "photoTipLight": "Clear, well-lit photos recommended",
+    "tipClear": "Clear, well-lit photos recommended",
+    "photoTipFormat": "JPG or PNG format",
+    "tipFormat": "JPG or PNG format",
+    "removePhoto": "Remove Photo",
+    "chooseTheme": "Choose a Visual Theme",
+    "themeDescription": "Select a background theme for your obituary. You can always change this later in the editor.",
+    "chooseThemeDesc": "Select a background theme for your obituary. You can always change this later in the editor."
+  },
+  "step6": {
+    "title": "Service Information (Optional)",
+    "serviceType": "Service Type",
+    "selectType": "Select type...",
+    "funeral": "Funeral",
+    "memorialService": "Memorial Service",
+    "celebrationOfLife": "Celebration of Life",
+    "privateService": "Private Service",
+    "noService": "No Service",
+    "date": "Date",
+    "time": "Time",
+    "locationName": "Location Name",
+    "locationPlaceholder": "e.g., Grace Community Church",
+    "address": "Address",
+    "addressPlaceholder": "e.g., 123 Main Street, Portland, OR",
+    "additionalInstructions": "Additional Instructions",
+    "additionalPlaceholder": "e.g., \"In lieu of flowers, donations to the American Heart Association...\""
+  },
+  "step7": {
+    "title": "Choose a Writing Style",
+    "traditional": {
+      "label": "Traditional / Formal",
+      "desc": "Classic, dignified language following conventional obituary format.",
+      "sample": "passed away peacefully on... was born in..."
+    },
+    "heartfelt": {
+      "label": "Warm / Heartfelt",
+      "desc": "Emotional, personal tone that celebrates the person's life.",
+      "sample": "With heavy hearts, we announce... brought light and warmth..."
+    },
+    "simple": {
+      "label": "Simple / Concise",
+      "desc": "Brief, straightforward announcement of passing and key details.",
+      "sample": "of [City] passed away on... will be remembered for..."
+    },
+    "religious": {
+      "label": "Religious / Spiritual",
+      "desc": "Faith-centered language with spiritual themes and scripture.",
+      "sample": "was called home to be with the Lord... a person of deep faith..."
+    },
+    "modern": {
+      "label": "Modern / Contemporary",
+      "desc": "Fresh, personal narrative that captures the person's unique spirit.",
+      "sample": "We lost an extraordinary person... lived every moment with purpose..."
+    }
+  },
+  "nav": {
+    "previous": "Previous",
+    "next": "Next",
+    "saveDraft": "Save Draft",
+    "draftSaved": "Draft saved! You can continue later.",
+    "generate": "Generate Obituary"
+  }
+}

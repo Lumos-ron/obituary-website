@@ -1,0 +1,40 @@
+{
+  "title": "Nutzungsbedingungen",
+  "lastUpdated": "Zuletzt aktualisiert: Januar 2025",
+  "acceptance": {
+    "title": "Annahme der Bedingungen",
+    "content": "Durch den Zugriff auf und die Nutzung von EternalTribute stimmen Sie diesen Nutzungsbedingungen zu. Wenn Sie nicht einverstanden sind, nutzen Sie bitte unsere Website nicht."
+  },
+  "useOfService": {
+    "title": "Nutzung des Dienstes",
+    "content": "EternalTribute bietet kostenlose Nachrufvorlagen und Erstellungswerkzeuge an. Sie dürfen diese Vorlagen für persönliche, nicht-kommerzielle Zwecke verwenden, um Nachrufe für sich selbst oder im Namen von Familienmitgliedern zu erstellen."
+  },
+  "ownership": {
+    "title": "Eigentumsrechte an Inhalten",
+    "content": "Die Nachrufinhalte, die Sie mit unseren Werkzeugen erstellen, gehören Ihnen. Unsere Vorlagen und das Website-Design bleiben Eigentum von EternalTribute. Sie sind frei, die von Ihnen erstellten Nachrufe zu verwenden, zu ändern und zu verbreiten."
+  },
+  "noWarranty": {
+    "title": "Keine Gewährleistung",
+    "content": "Unser Dienst wird ohne Gewährleistungen jeglicher Art bereitgestellt. Obwohl wir bestrebt sind, genaue Vorlagen und zuverlässige Werkzeuge anzubieten, können wir nicht garantieren, dass der Dienst fehlerfrei oder unterbrechungsfrei funktioniert."
+  },
+  "liability": {
+    "title": "Haftungsbeschränkung",
+    "content": "EternalTribute haftet nicht für Schäden, die aus der Nutzung des Dienstes entstehen. Sie sind dafür verantwortlich, alle Nachrufinhalte vor der Veröffentlichung oder Verbreitung zu überprüfen."
+  },
+  "prohibited": {
+    "title": "Untersagte Nutzung",
+    "intro": "Sie verpflichten sich, Folgendes zu unterlassen:",
+    "items": {
+      "unlawful": "Nutzung des Dienstes für rechtswidrige Zwecke",
+      "false": "Erstellung falscher oder irreführender Nachrufe",
+      "disrupt": "Versuche, die Website zu stören oder zu beschädigen",
+      "scrape": "Automatisiertes Sammeln von Daten von der Website"
+    }
+  },
+  "changes": {
+    "title": "Änderungen der Bedingungen",
+    "content": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern. Die fortgesetzte Nutzung der Website nach Änderungen gilt als Annahme der neuen Bedingungen."
+  },
+  "contactTitle": "Kontakt",
+  "contactContent": "Bei Fragen zu diesen Bedingungen kontaktieren Sie uns bitte unter support@eternaltribute.com."
+}

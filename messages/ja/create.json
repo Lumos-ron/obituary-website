@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "title": "追悼文を作成する",
+    "description": "無料のオンラインツールで、ステップごとにオリジナルの追悼文を作成できます。"
+  },
+  "title": "追悼文を作成する",
+  "subtitle": "以下のステップに従って、オリジナルの追悼文を作成しましょう",
+  "progress": {
+    "step": "ステップ {current} / {total}",
+    "complete": "{percent}% 完了"
+  },
+  "steps": {
+    "relation": "続柄",
+    "info": "基本情報",
+    "life": "人生",
+    "family": "ご家族",
+    "photo": "写真",
+    "service": "葬儀",
+    "style": "スタイル"
+  },
+  "step1": {
+    "title": "どなたの追悼文ですか？"
+  },
+  "step2": {
+    "title": "基本情報",
+    "fullName": "お名前（フルネーム）",
+    "fullNameRequired": "お名前（フルネーム） *",
+    "fullNamePlaceholder": "例：山田 太郎",
+    "dateOfBirth": "生年月日",
+    "dateOfPassing": "ご逝去日",
+    "dateOfPassingRequired": "ご逝去日 *",
+    "age": "享年",
+    "agePlaceholder": "例：78",
+    "cityOfResidence": "居住地",
+    "cityPlaceholder": "例：東京都港区",
+    "placeOfBirth": "出生地",
+    "placeOfBirthPlaceholder": "例：大阪府大阪市",
+    "placeOfPassing": "ご逝去の場所",
+    "placeOfPassingPlaceholder": "例：ご自宅にて、ご家族に見守られながら"
+  },
+  "step3": {
+    "title": "人生のハイライト",
+    "occupation": "職業・経歴",
+    "occupationPlaceholder": "例：小学校教諭",
+    "education": "学歴",
+    "educationPlaceholder": "例：東京大学",
+    "militaryService": "軍歴・公務歴",
+    "militaryPlaceholder": "例：陸上自衛隊",
+    "hobbies": "趣味・関心事",
+    "otherHobbies": "その他の趣味（カンマ区切り）",
+    "customHobbiesPlaceholder": "その他の趣味（カンマ区切り）",
+    "characterTraits": "人柄・性格",
+    "achievements": "主な功績",
+    "achievementsPlaceholder": "功績、受賞歴、社会への貢献など..."
+  },
+  "step4": {
+    "title": "ご家族",
+    "survivedBy": "ご遺族",
+    "survivedByDesc": "故人を偲ぶご遺族・大切な方々をご記入ください",
+    "precededBy": "先立たれた方",
+    "precededByDesc": "先にお亡くなりになったご家族をご記入ください",
+    "relationship": "続柄",
+    "name": "お名前",
+    "addAnother": "+ 追加する"
+  },
+  "step5": {
+    "title": "写真とデザイン",
+    "description": "写真をアップロードし、追悼文のビジュアルテーマを選択してください。プレビューやエクスポートされる画像・PDFに反映されます。",
+    "uploadPhoto": "写真をアップロード",
+    "photoDescription": "故人のお写真をアップロードしてください。追悼文のヘッダーに表示されます。",
+    "uploadPhotoDesc": "故人のお写真をアップロードしてください。追悼文のヘッダーに表示されます。",
+    "photoTipPortrait": "縦向きの写真が最適です",
+    "tipPortrait": "縦向きの写真が最適です",
+    "photoTipLight": "明るく鮮明な写真をおすすめします",
+    "tipClear": "明るく鮮明な写真をおすすめします",
+    "photoTipFormat": "JPGまたはPNG形式",
+    "tipFormat": "JPGまたはPNG形式",
+    "removePhoto": "写真を削除",
+    "chooseTheme": "ビジュアルテーマを選択",
+    "themeDescription": "追悼文の背景テーマを選択してください。エディタで後から変更することもできます。",
+    "chooseThemeDesc": "追悼文の背景テーマを選択してください。エディタで後から変更することもできます。"
+  },
+  "step6": {
+    "title": "葬儀情報（任意）",
+    "serviceType": "葬儀の種類",
+    "selectType": "種類を選択...",
+    "funeral": "葬儀",
+    "memorialService": "追悼式",
+    "celebrationOfLife": "偲ぶ会",
+    "privateService": "家族葬",
+    "noService": "葬儀なし",
+    "date": "日付",
+    "time": "時間",
+    "locationName": "会場名",
+    "locationPlaceholder": "例：〇〇寺",
+    "address": "住所",
+    "addressPlaceholder": "例：東京都港区芝公園4-7-35",
+    "additionalInstructions": "補足事項",
+    "additionalPlaceholder": "例：「お花に代えて、〇〇基金へのご寄付をお願い申し上げます。」"
+  },
+  "step7": {
+    "title": "文体を選択してください",
+    "traditional": {
+      "label": "伝統的・格式のある文体",
+      "desc": "格調高く、従来の追悼文の形式に沿った品格ある文体です。",
+      "sample": "〇月〇日、安らかに永眠いたしました。〇年に誕生し..."
+    },
+    "heartfelt": {
+      "label": "温かみのある・心のこもった文体",
+      "desc": "感情を込めた、故人の人生を称える心温まる文体です。",
+      "sample": "深い悲しみをもってお知らせいたします。光と温もりをもたらしてくれた..."
+    },
+    "simple": {
+      "label": "シンプル・簡潔な文体",
+      "desc": "要点を押さえた、簡潔で分かりやすい文体です。",
+      "sample": "〇〇市の〇〇氏が〇月〇日に逝去されました。その功績は..."
+    },
+    "religious": {
+      "label": "宗教的・精神的な文体",
+      "desc": "信仰に基づいた、精神的なテーマや教えを取り入れた文体です。",
+      "sample": "主のもとに召されました。深い信仰を持った方でした..."
+    },
+    "modern": {
+      "label": "モダン・現代的な文体",
+      "desc": "故人の個性を生き生きと伝える、新鮮で現代的な文体です。",
+      "sample": "私たちはかけがえのない方を失いました。すべての瞬間を大切に生きた方でした..."
+    }
+  },
+  "nav": {
+    "previous": "戻る",
+    "next": "次へ",
+    "saveDraft": "下書き保存",
+    "draftSaved": "下書きを保存しました。後で続きを作成できます。",
+    "generate": "追悼文を生成する"
+  }
+}

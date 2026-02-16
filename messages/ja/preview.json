@@ -1,0 +1,15 @@
+{
+  "title": "プレビューとエクスポート",
+  "backToEditor": "← エディタに戻る",
+  "exportAs": "エクスポート形式",
+  "downloadWord": "Wordでダウンロード",
+  "downloadPdf": "PDFでダウンロード",
+  "downloadImage": "画像でダウンロード",
+  "saveAsImage": "画像として保存",
+  "copyText": "テキストをコピー",
+  "copied": "コピーしました！",
+  "exporting": "エクスポート中...",
+  "printing": "準備中...",
+  "downloadStarted": "ダウンロードを開始しました",
+  "exportNote": "すべてのエクスポートオプション（PDF、Word、画像）には、背景、装飾、写真を含む完全なビジュアルデザインが反映されます。「テキストをコピー」はテキスト内容のみをコピーします。"
+}

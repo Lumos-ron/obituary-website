@@ -1,0 +1,37 @@
+{
+  "title": "Privacy Policy",
+  "lastUpdated": "Last updated: January 2025",
+  "overview": {
+    "title": "Overview",
+    "content": "EternalTribute is committed to protecting your privacy. This policy explains how we handle information when you use our website."
+  },
+  "noCollect": {
+    "title": "Information We Do NOT Collect",
+    "intro": "We do not collect, store, or process any personal information. Specifically:",
+    "items": {
+      "accounts": "We do not require any user accounts or registration",
+      "storage": "We do not store any obituary content on our servers",
+      "personal": "We do not collect names, email addresses, or contact information",
+      "cookies": "We do not use cookies for tracking purposes",
+      "sharing": "We do not sell or share any data with third parties"
+    }
+  },
+  "localStorage": {
+    "title": "Local Storage",
+    "content": "Our website uses your browser's local storage to save drafts of your work. This data is stored only on your device and is never transmitted to our servers. You can clear this data at any time through your browser settings."
+  },
+  "analytics": {
+    "title": "Analytics",
+    "content": "We may use basic, privacy-respecting analytics to understand how our website is used. This data is aggregated and anonymized — we never track individual users."
+  },
+  "thirdParty": {
+    "title": "Third-Party Services",
+    "content": "Our website is hosted on Vercel. Google Fonts are used for typography. These services have their own privacy policies. No personal data from our website is shared with these services beyond standard web hosting functionality."
+  },
+  "changes": {
+    "title": "Changes to This Policy",
+    "content": "We may update this privacy policy from time to time. Any changes will be posted on this page with an updated revision date."
+  },
+  "contactTitle": "Contact",
+  "contactContent": "If you have any questions about this privacy policy, please contact us at support@eternaltribute.com."
+}

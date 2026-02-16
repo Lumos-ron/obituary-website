@@ -1,0 +1,34 @@
+{
+  "nav": {
+    "templates": "Templates",
+    "create": "Create",
+    "writingGuides": "Writing Guides",
+    "about": "About",
+    "createObituary": "Create an Obituary",
+    "openMenu": "Open menu"
+  },
+  "footer": {
+    "brandDescription": "Helping families honor their loved ones with dignity and grace through thoughtfully crafted obituary templates.",
+    "templates": "Templates",
+    "resources": "Resources",
+    "legal": "Legal",
+    "motherObituary": "Mother Obituary",
+    "fatherObituary": "Father Obituary",
+    "spouseObituary": "Spouse Obituary",
+    "grandparentObituary": "Grandparent Obituary",
+    "generalObituary": "General Obituary",
+    "writingGuides": "Writing Guides",
+    "obituaryCreator": "Obituary Creator",
+    "allTemplates": "All Templates",
+    "aboutUs": "About Us",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "copyright": "© {year} EternalTribute. All rights reserved. Created with compassion to help families during difficult times."
+  },
+  "language": {
+    "switchLanguage": "Language",
+    "en": "English",
+    "de": "Deutsch",
+    "ja": "日本語"
+  }
+}

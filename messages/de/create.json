@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "title": "Nachruf erstellen",
+    "description": "Erstellen Sie Schritt für Schritt einen personalisierten Nachruf mit unserem kostenlosen Online-Tool."
+  },
+  "title": "Nachruf erstellen",
+  "subtitle": "Folgen Sie den Schritten unten, um einen personalisierten Nachruf zu erstellen",
+  "progress": {
+    "step": "Schritt {current} von {total}",
+    "complete": "{percent} % abgeschlossen"
+  },
+  "steps": {
+    "relation": "Beziehung",
+    "info": "Infos",
+    "life": "Leben",
+    "family": "Familie",
+    "photo": "Foto",
+    "service": "Trauerfeier",
+    "style": "Stil"
+  },
+  "step1": {
+    "title": "Für wen ist dieser Nachruf?"
+  },
+  "step2": {
+    "title": "Grundinformationen",
+    "fullName": "Vollständiger Name",
+    "fullNameRequired": "Vollständiger Name *",
+    "fullNamePlaceholder": "z. B. Maria Elisabeth Müller",
+    "dateOfBirth": "Geburtsdatum",
+    "dateOfPassing": "Sterbedatum",
+    "dateOfPassingRequired": "Sterbedatum *",
+    "age": "Alter",
+    "agePlaceholder": "z. B. 78",
+    "cityOfResidence": "Wohnort",
+    "cityPlaceholder": "z. B. München, Bayern",
+    "placeOfBirth": "Geburtsort",
+    "placeOfBirthPlaceholder": "z. B. Hamburg",
+    "placeOfPassing": "Sterbeort",
+    "placeOfPassingPlaceholder": "z. B. zu Hause, im Kreise der Familie"
+  },
+  "step3": {
+    "title": "Lebensstationen",
+    "occupation": "Beruf / Karriere",
+    "occupationPlaceholder": "z. B. Grundschullehrerin",
+    "education": "Ausbildung",
+    "educationPlaceholder": "z. B. Universität Heidelberg",
+    "militaryService": "Militärdienst",
+    "militaryPlaceholder": "z. B. Bundeswehr",
+    "hobbies": "Hobbys & Interessen",
+    "otherHobbies": "Weitere Hobbys (kommagetrennt)",
+    "customHobbiesPlaceholder": "Weitere Hobbys (kommagetrennt)",
+    "characterTraits": "Charaktereigenschaften",
+    "achievements": "Besondere Errungenschaften",
+    "achievementsPlaceholder": "Bemerkenswerte Errungenschaften, Auszeichnungen oder Beiträge..."
+  },
+  "step4": {
+    "title": "Familienmitglieder",
+    "survivedBy": "Hinterbliebene",
+    "survivedByDesc": "Familienmitglieder und Angehörige, die sie überleben",
+    "precededBy": "Vorverstorbene",
+    "precededByDesc": "Familienmitglieder, die bereits verstorben sind",
+    "relationship": "Beziehung",
+    "name": "Name",
+    "addAnother": "+ Weitere Person hinzufügen"
+  },
+  "step5": {
+    "title": "Foto & Design",
+    "description": "Laden Sie ein Foto hoch und wählen Sie ein visuelles Thema für Ihren Nachruf. Diese werden in der visuellen Vorschau und im exportierten Bild/PDF angezeigt.",
+    "uploadPhoto": "Foto hochladen",
+    "photoDescription": "Laden Sie ein Porträtfoto Ihres Angehörigen hoch. Es wird in der Kopfzeile Ihres Nachrufs angezeigt.",
+    "uploadPhotoDesc": "Laden Sie ein Porträtfoto Ihres Angehörigen hoch. Es wird in der Kopfzeile Ihres Nachrufs angezeigt.",
+    "photoTipPortrait": "Hochformat funktioniert am besten",
+    "tipPortrait": "Hochformat funktioniert am besten",
+    "photoTipLight": "Klare, gut beleuchtete Fotos empfohlen",
+    "tipClear": "Klare, gut beleuchtete Fotos empfohlen",
+    "photoTipFormat": "JPG- oder PNG-Format",
+    "tipFormat": "JPG- oder PNG-Format",
+    "removePhoto": "Foto entfernen",
+    "chooseTheme": "Visuelles Thema wählen",
+    "themeDescription": "Wählen Sie ein Hintergrundthema für Ihren Nachruf. Sie können dies später im Editor jederzeit ändern.",
+    "chooseThemeDesc": "Wählen Sie ein Hintergrundthema für Ihren Nachruf. Sie können dies später im Editor jederzeit ändern."
+  },
+  "step6": {
+    "title": "Informationen zur Trauerfeier (Optional)",
+    "serviceType": "Art der Trauerfeier",
+    "selectType": "Art auswählen...",
+    "funeral": "Beerdigung",
+    "memorialService": "Gedenkfeier",
+    "celebrationOfLife": "Lebensfeier",
+    "privateService": "Private Trauerfeier",
+    "noService": "Keine Trauerfeier",
+    "date": "Datum",
+    "time": "Uhrzeit",
+    "locationName": "Name des Veranstaltungsortes",
+    "locationPlaceholder": "z. B. Ev. Gemeindekirche St. Matthäus",
+    "address": "Adresse",
+    "addressPlaceholder": "z. B. Hauptstraße 123, 80331 München",
+    "additionalInstructions": "Zusätzliche Hinweise",
+    "additionalPlaceholder": "z. B. \u201EAnstelle von Blumen bitten wir um Spenden an die Deutsche Herzstiftung...\u201C"
+  },
+  "step7": {
+    "title": "Schreibstil wählen",
+    "traditional": {
+      "label": "Traditionell / Formell",
+      "desc": "Klassische, würdevolle Sprache im konventionellen Nachrufformat.",
+      "sample": "verstarb friedlich am... wurde geboren in..."
+    },
+    "heartfelt": {
+      "label": "Warmherzig / Einfühlsam",
+      "desc": "Emotionaler, persönlicher Ton, der das Leben der Person feiert.",
+      "sample": "Mit schwerem Herzen geben wir bekannt... brachte Licht und Wärme..."
+    },
+    "simple": {
+      "label": "Schlicht / Prägnant",
+      "desc": "Kurze, sachliche Bekanntgabe des Ablebens und der wichtigsten Informationen.",
+      "sample": "aus [Stadt] verstarb am... wird in Erinnerung bleiben für..."
+    },
+    "religious": {
+      "label": "Religiös / Spirituell",
+      "desc": "Glaubenszentrierte Sprache mit spirituellen Themen und Bibelzitaten.",
+      "sample": "wurde in die Ewigkeit gerufen... ein Mensch tiefen Glaubens..."
+    },
+    "modern": {
+      "label": "Modern / Zeitgenössisch",
+      "desc": "Frische, persönliche Erzählung, die den einzigartigen Geist der Person einfängt.",
+      "sample": "Wir haben einen außergewöhnlichen Menschen verloren... lebte jeden Moment mit Sinn..."
+    }
+  },
+  "nav": {
+    "previous": "Zurück",
+    "next": "Weiter",
+    "saveDraft": "Entwurf speichern",
+    "draftSaved": "Entwurf gespeichert! Sie können später fortfahren.",
+    "generate": "Nachruf generieren"
+  }
+}

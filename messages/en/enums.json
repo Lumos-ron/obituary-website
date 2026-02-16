@@ -1,0 +1,65 @@
+{
+  "category": {
+    "mother": "Mother",
+    "father": "Father",
+    "spouse": "Spouse",
+    "grandparent": "Grandparent",
+    "sibling": "Sibling",
+    "friend": "Friend",
+    "child": "Child",
+    "general": "General"
+  },
+  "style": {
+    "traditional": "Traditional",
+    "modern": "Modern",
+    "heartfelt": "Heartfelt",
+    "simple": "Simple",
+    "religious": "Religious"
+  },
+  "length": {
+    "short": "Short (100-150 words)",
+    "standard": "Standard (200-300 words)",
+    "detailed": "Detailed (400+ words)"
+  },
+  "hobby": {
+    "reading": "Reading",
+    "gardening": "Gardening",
+    "traveling": "Traveling",
+    "music": "Music",
+    "sports": "Sports",
+    "cooking": "Cooking",
+    "fishing": "Fishing",
+    "photography": "Photography",
+    "painting": "Painting",
+    "volunteering": "Volunteering",
+    "dancing": "Dancing",
+    "writing": "Writing"
+  },
+  "trait": {
+    "loving": "Loving",
+    "kind": "Kind",
+    "generous": "Generous",
+    "humorous": "Humorous",
+    "strong": "Strong",
+    "compassionate": "Compassionate",
+    "patient": "Patient",
+    "wise": "Wise",
+    "gentle": "Gentle",
+    "faithful": "Faithful",
+    "resilient": "Resilient",
+    "joyful": "Joyful"
+  },
+  "familyRelationship": {
+    "spouse": "Spouse",
+    "son": "Son",
+    "daughter": "Daughter",
+    "brother": "Brother",
+    "sister": "Sister",
+    "grandchild": "Grandchild",
+    "mother": "Mother",
+    "father": "Father",
+    "niece": "Niece",
+    "nephew": "Nephew",
+    "friend": "Friend"
+  }
+}

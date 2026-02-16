@@ -1,0 +1,53 @@
+{
+  "hero": {
+    "title": "Honor Their Memory with a Beautiful Obituary",
+    "description": "Create a meaningful tribute for your loved one with our free, easy-to-use obituary templates. Choose a template, customize it, and download in minutes.",
+    "createButton": "Create an Obituary",
+    "browseButton": "Browse Templates"
+  },
+  "features": {
+    "free": {
+      "title": "100% Free",
+      "description": "No hidden fees, no sign-up required. Create and download obituaries completely free."
+    },
+    "setup": {
+      "title": "Ready in Minutes",
+      "description": "Our step-by-step wizard and templates make it easy to create a beautiful obituary quickly."
+    },
+    "formats": {
+      "title": "Multiple Formats",
+      "description": "Download your obituary as Word, PDF, or image. Ready for newspapers, funeral homes, or online sharing."
+    }
+  },
+  "popular": {
+    "title": "Popular Templates",
+    "description": "Start with one of our most-used templates and customize it to your needs.",
+    "viewAll": "View All Templates"
+  },
+  "trust": {
+    "title": "Trusted by Families Nationwide",
+    "familiesHelped": "Families Helped",
+    "templateOptions": "Template Options",
+    "freeForever": "Free, Forever"
+  },
+  "testimonials": {
+    "1": {
+      "quote": "During the most difficult time of our lives, EternalTribute made it so much easier to write my mother's obituary. The templates were beautiful and heartfelt.",
+      "name": "Sarah M."
+    },
+    "2": {
+      "quote": "I was dreading having to write an obituary, but the step-by-step wizard guided me through it. The result was perfect — exactly what my father would have wanted.",
+      "name": "James R."
+    },
+    "3": {
+      "quote": "Thank you for making this free. It meant the world to our family that we could focus on grieving rather than worrying about costs.",
+      "name": "Maria L."
+    }
+  },
+  "cta": {
+    "title": "Create a Lasting Tribute Today",
+    "description": "Join thousands of families who have used EternalTribute to honor their loved ones. It's free, private, and takes just minutes.",
+    "startButton": "Start Creating",
+    "guidesButton": "Read Our Guides"
+  }
+}

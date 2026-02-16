@@ -1,0 +1,53 @@
+{
+  "hero": {
+    "title": "Ehren Sie das Andenken mit einem würdevollen Nachruf",
+    "description": "Erstellen Sie eine bedeutungsvolle Würdigung für Ihre Angehörigen mit unseren kostenlosen, benutzerfreundlichen Nachrufvorlagen. Wählen Sie eine Vorlage, passen Sie sie an und laden Sie sie in wenigen Minuten herunter.",
+    "createButton": "Nachruf erstellen",
+    "browseButton": "Vorlagen durchsuchen"
+  },
+  "features": {
+    "free": {
+      "title": "100 % kostenlos",
+      "description": "Keine versteckten Gebühren, keine Registrierung erforderlich. Erstellen und laden Sie Nachrufe völlig kostenlos herunter."
+    },
+    "setup": {
+      "title": "In Minuten fertig",
+      "description": "Unser Schritt-für-Schritt-Assistent und unsere Vorlagen machen es einfach, schnell einen würdevollen Nachruf zu erstellen."
+    },
+    "formats": {
+      "title": "Mehrere Formate",
+      "description": "Laden Sie Ihren Nachruf als Word-, PDF- oder Bilddatei herunter. Bereit für Zeitungen, Bestattungsinstitute oder zum Teilen im Internet."
+    }
+  },
+  "popular": {
+    "title": "Beliebte Vorlagen",
+    "description": "Beginnen Sie mit einer unserer meistgenutzten Vorlagen und passen Sie sie nach Ihren Wünschen an.",
+    "viewAll": "Alle Vorlagen anzeigen"
+  },
+  "trust": {
+    "title": "Von Familien im ganzen Land geschätzt",
+    "familiesHelped": "Familien geholfen",
+    "templateOptions": "Vorlagenoptionen",
+    "freeForever": "Für immer kostenlos"
+  },
+  "testimonials": {
+    "1": {
+      "quote": "In der schwierigsten Zeit unseres Lebens hat EternalTribute es so viel einfacher gemacht, den Nachruf meiner Mutter zu schreiben. Die Vorlagen waren wunderschön und herzlich.",
+      "name": "Sarah M."
+    },
+    "2": {
+      "quote": "Ich hatte Angst davor, einen Nachruf schreiben zu müssen, aber der Schritt-für-Schritt-Assistent hat mich hindurchgeführt. Das Ergebnis war perfekt — genau das, was mein Vater sich gewünscht hätte.",
+      "name": "James R."
+    },
+    "3": {
+      "quote": "Danke, dass Sie dies kostenlos anbieten. Es bedeutete unserer Familie so viel, dass wir uns auf die Trauer konzentrieren konnten, anstatt uns um Kosten zu sorgen.",
+      "name": "Maria L."
+    }
+  },
+  "cta": {
+    "title": "Schaffen Sie noch heute ein bleibendes Andenken",
+    "description": "Schließen Sie sich Tausenden von Familien an, die EternalTribute genutzt haben, um ihre Angehörigen zu ehren. Es ist kostenlos, privat und dauert nur wenige Minuten.",
+    "startButton": "Jetzt erstellen",
+    "guidesButton": "Unsere Ratgeber lesen"
+  }
+}

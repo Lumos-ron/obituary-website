@@ -1,0 +1,15 @@
+{
+  "title": "Preview & Export",
+  "backToEditor": "← Back to Editor",
+  "exportAs": "Export As",
+  "downloadWord": "Download Word",
+  "downloadPdf": "Download PDF",
+  "downloadImage": "Download Image",
+  "saveAsImage": "Save as Image",
+  "copyText": "Copy Text",
+  "copied": "Copied!",
+  "exporting": "Exporting...",
+  "printing": "Preparing...",
+  "downloadStarted": "Download started",
+  "exportNote": "All export options (PDF, Word, Image) will include the full visual design with background, decorations, and photo. \"Copy Text\" copies the text content only."
+}

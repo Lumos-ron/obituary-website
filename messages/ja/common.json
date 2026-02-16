@@ -1,0 +1,34 @@
+{
+  "nav": {
+    "templates": "テンプレート",
+    "create": "作成",
+    "writingGuides": "書き方ガイド",
+    "about": "サイトについて",
+    "createObituary": "追悼文を作成する",
+    "openMenu": "メニューを開く"
+  },
+  "footer": {
+    "brandDescription": "心を込めた追悼文テンプレートを通じて、ご遺族が大切な方を尊厳と敬意をもって偲ぶお手伝いをいたします。",
+    "templates": "テンプレート",
+    "resources": "リソース",
+    "legal": "法的情報",
+    "motherObituary": "母親の追悼文",
+    "fatherObituary": "父親の追悼文",
+    "spouseObituary": "配偶者の追悼文",
+    "grandparentObituary": "祖父母の追悼文",
+    "generalObituary": "一般的な追悼文",
+    "writingGuides": "書き方ガイド",
+    "obituaryCreator": "追悼文作成ツール",
+    "allTemplates": "すべてのテンプレート",
+    "aboutUs": "私たちについて",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "copyright": "© {year} EternalTribute. All rights reserved. ご遺族の困難な時期に寄り添い、心を込めて制作しております。"
+  },
+  "language": {
+    "switchLanguage": "言語",
+    "en": "English",
+    "de": "Deutsch",
+    "ja": "日本語"
+  }
+}

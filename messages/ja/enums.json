@@ -1,0 +1,65 @@
+{
+  "category": {
+    "mother": "母親",
+    "father": "父親",
+    "spouse": "配偶者",
+    "grandparent": "祖父母",
+    "sibling": "兄弟姉妹",
+    "friend": "友人",
+    "child": "子ども",
+    "general": "一般"
+  },
+  "style": {
+    "traditional": "伝統的",
+    "modern": "モダン",
+    "heartfelt": "心のこもった",
+    "simple": "シンプル",
+    "religious": "宗教的"
+  },
+  "length": {
+    "short": "短文（100〜150語）",
+    "standard": "標準（200〜300語）",
+    "detailed": "詳細（400語以上）"
+  },
+  "hobby": {
+    "reading": "読書",
+    "gardening": "園芸",
+    "traveling": "旅行",
+    "music": "音楽",
+    "sports": "スポーツ",
+    "cooking": "料理",
+    "fishing": "釣り",
+    "photography": "写真",
+    "painting": "絵画",
+    "volunteering": "ボランティア",
+    "dancing": "ダンス",
+    "writing": "執筆"
+  },
+  "trait": {
+    "loving": "愛情深い",
+    "kind": "優しい",
+    "generous": "寛大な",
+    "humorous": "ユーモアのある",
+    "strong": "強い",
+    "compassionate": "思いやりのある",
+    "patient": "忍耐強い",
+    "wise": "賢い",
+    "gentle": "穏やかな",
+    "faithful": "誠実な",
+    "resilient": "たくましい",
+    "joyful": "明るい"
+  },
+  "familyRelationship": {
+    "spouse": "配偶者",
+    "son": "息子",
+    "daughter": "娘",
+    "brother": "兄弟",
+    "sister": "姉妹",
+    "grandchild": "孫",
+    "mother": "母親",
+    "father": "父親",
+    "niece": "姪",
+    "nephew": "甥",
+    "friend": "友人"
+  }
+}

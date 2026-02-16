@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "Free Obituary Templates",
+    "description": "Browse our collection of free obituary templates for every relationship and style."
+  },
+  "page": {
+    "title": "Obituary Templates",
+    "subtitle": "Find the perfect template to honor your loved one. All templates are free to use and customize."
+  },
+  "filters": {
+    "relationship": "Relationship",
+    "style": "Style",
+    "length": "Length",
+    "all": "All",
+    "sortBy": "Sort by:",
+    "mostPopular": "Most Popular",
+    "newest": "Newest",
+    "byCategory": "By Category"
+  },
+  "results": {
+    "showing": "Showing {count} templates",
+    "noResults": "No templates match your filters. Try adjusting your selection."
+  },
+  "card": {
+    "forLabel": "For {category}",
+    "preview": "Preview",
+    "useTemplate": "Use Template",
+    "words": "{count} words"
+  },
+  "categoryPage": {
+    "title": "Free {category} Obituary Templates",
+    "description": "Browse our collection of free obituary templates for {category}. Choose from traditional, modern, heartfelt, and religious styles."
+  },
+  "detail": {
+    "backToTemplates": "← Back to Templates",
+    "forCategory": "For {category}",
+    "styleLabel": "Style: {style}",
+    "samplePreview": "Sample Preview",
+    "useThisTemplate": "Use This Template",
+    "orCreateFromScratch": "Or Create From Scratch",
+    "relatedTemplates": "Related Templates",
+    "themeLabel": "Theme: {theme}",
+    "themeNote": "You can change the theme in the editor"
+  }
+}

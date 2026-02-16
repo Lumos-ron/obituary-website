@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "title": "Ratgeber zum Verfassen von Nachrufen",
+    "description": "Hilfreiche Ressourcen, die Sie beim Schreiben eines bedeutungsvollen Nachrufs begleiten."
+  },
+  "page": {
+    "title": "Ratgeber zum Verfassen von Nachrufen",
+    "subtitle": "Hilfreiche Ressourcen, die Sie beim Schreiben eines bedeutungsvollen Nachrufs, beim Verständnis der Traueretikette und bei der Ehrung Ihrer Angehörigen begleiten."
+  },
+  "card": {
+    "readingTime": "{minutes} Min. Lesezeit"
+  },
+  "detail": {
+    "backToGuides": "← Zurück zu Ratgebern",
+    "ctaTitle": "Bereit, einen Nachruf zu schreiben?",
+    "ctaDescription": "Nutzen Sie unsere kostenlosen Tools, um eine würdevolle Ehrung für Ihre Angehörigen zu erstellen.",
+    "createButton": "Nachruf erstellen",
+    "browseButton": "Vorlagen durchsuchen"
+  },
+  "readMore": "Weiterlesen →",
+  "backToGuides": "← Zurück zu Ratgebern",
+  "relatedGuides": "Verwandte Ratgeber"
+}

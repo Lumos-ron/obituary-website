@@ -1,0 +1,15 @@
+{
+  "title": "Vorschau & Export",
+  "backToEditor": "← Zurück zum Editor",
+  "exportAs": "Exportieren als",
+  "downloadWord": "Word herunterladen",
+  "downloadPdf": "PDF herunterladen",
+  "downloadImage": "Bild herunterladen",
+  "saveAsImage": "Als Bild speichern",
+  "copyText": "Text kopieren",
+  "copied": "Kopiert!",
+  "exporting": "Wird exportiert...",
+  "printing": "Wird vorbereitet...",
+  "downloadStarted": "Download gestartet",
+  "exportNote": "Alle Exportoptionen (PDF, Word, Bild) enthalten das vollständige visuelle Design mit Hintergrund, Verzierungen und Foto. \u201EText kopieren\u201C kopiert nur den Textinhalt."
+}

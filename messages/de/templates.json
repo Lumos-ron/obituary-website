@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "Kostenlose Nachrufvorlagen",
+    "description": "Durchsuchen Sie unsere Sammlung kostenloser Nachrufvorlagen für jede Beziehung und jeden Stil."
+  },
+  "page": {
+    "title": "Nachrufvorlagen",
+    "subtitle": "Finden Sie die perfekte Vorlage, um Ihre Angehörigen zu ehren. Alle Vorlagen sind kostenlos und anpassbar."
+  },
+  "filters": {
+    "relationship": "Beziehung",
+    "style": "Stil",
+    "length": "Länge",
+    "all": "Alle",
+    "sortBy": "Sortieren nach:",
+    "mostPopular": "Beliebteste",
+    "newest": "Neueste",
+    "byCategory": "Nach Kategorie"
+  },
+  "results": {
+    "showing": "{count} Vorlagen werden angezeigt",
+    "noResults": "Keine Vorlagen entsprechen Ihren Filtern. Versuchen Sie, Ihre Auswahl anzupassen."
+  },
+  "card": {
+    "forLabel": "Für {category}",
+    "preview": "Vorschau",
+    "useTemplate": "Vorlage verwenden",
+    "words": "{count} Wörter"
+  },
+  "categoryPage": {
+    "title": "Kostenlose Nachrufvorlagen für {category}",
+    "description": "Durchsuchen Sie unsere Sammlung kostenloser Nachrufvorlagen für {category}. Wählen Sie zwischen traditionellen, modernen, herzlichen und religiösen Stilen."
+  },
+  "detail": {
+    "backToTemplates": "← Zurück zu Vorlagen",
+    "forCategory": "Für {category}",
+    "styleLabel": "Stil: {style}",
+    "samplePreview": "Beispielvorschau",
+    "useThisTemplate": "Diese Vorlage verwenden",
+    "orCreateFromScratch": "Oder von Grund auf erstellen",
+    "relatedTemplates": "Ähnliche Vorlagen",
+    "themeLabel": "Thema: {theme}",
+    "themeNote": "Sie können das Thema im Editor ändern"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "home": {
+    "title": "Free Obituary Templates | Create Beautiful Memorials Online",
+    "description": "Create meaningful obituaries with our free templates. Choose from traditional, modern, and heartfelt designs. Download as Word, PDF, or share online.",
+    "ogTitle": "Free Obituary Templates | Create Beautiful Memorials Online",
+    "ogDescription": "Create meaningful obituaries with our free templates. Choose from traditional, modern, and heartfelt designs."
+  },
+  "templates": {
+    "title": "Free Obituary Templates",
+    "description": "Browse our collection of free obituary templates for every relationship and style."
+  },
+  "create": {
+    "title": "Create an Obituary",
+    "description": "Create a personalized obituary step by step with our free online tool."
+  },
+  "guides": {
+    "title": "Obituary Writing Guides",
+    "description": "Helpful resources to guide you through writing a meaningful obituary."
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Learn about EternalTribute and our mission to help families honor their loved ones."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "description": "EternalTribute privacy policy - how we handle your data."
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "description": "EternalTribute terms of service and usage guidelines."
+  },
+  "categoryTitle": "Free {category} Obituary Templates",
+  "categoryDescription": "Browse our collection of free obituary templates for {category}. Choose from traditional, modern, heartfelt, and religious styles.",
+  "templateTitle": "{title} - Free Obituary Template"
+}

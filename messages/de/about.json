@@ -1,0 +1,33 @@
+{
+  "title": "Über EternalTribute",
+  "intro": "EternalTribute wurde mit einer einfachen, aber tiefgreifenden Mission gegründet: Familien dabei zu helfen, die richtigen Worte in einem der schwierigsten Momente des Lebens zu finden.",
+  "mission": {
+    "title": "Unsere Mission",
+    "content": "Wir glauben, dass jedes Leben verdient, mit Würde und Anmut geehrt zu werden. Wenn Sie jemanden verlieren, den Sie lieben, ist das Letzte, worüber Sie sich Gedanken machen möchten, wie man einen Nachruf schreibt. Genau hier kommen wir ins Spiel — wir bieten kostenlose, liebevoll gestaltete Vorlagen und Werkzeuge, um Ihnen zu helfen, eine bedeutungsvolle Würdigung zu erstellen."
+  },
+  "why": {
+    "title": "Warum wir dies geschaffen haben",
+    "content": "Nachdem wir selbst die Schwierigkeit erlebt haben, Nachrufe zu verfassen, erkannten wir den Bedarf an einem einfachen, kostenlosen und einfühlsamen Werkzeug. Viele bestehende Dienste erheben hohe Gebühren oder erfordern komplizierte Anmeldeprozesse. Wir wollten diese Hürden beseitigen und es jedem leicht machen, ein würdevolles Andenken zu erstellen."
+  },
+  "offer": {
+    "title": "Was wir bieten",
+    "items": {
+      "templates": "Über 20 professionell verfasste Nachrufvorlagen",
+      "wizard": "Einen Schritt-für-Schritt-Assistenten zur Nachruf-Erstellung",
+      "editor": "Einen flexiblen Online-Editor mit Live-Vorschau",
+      "export": "Kostenlosen Export in Word-, PDF- und Bildformate",
+      "guides": "Umfassende Schreibratgeber und Ressourcen"
+    }
+  },
+  "privacy": {
+    "title": "Ihre Privatsphäre ist uns wichtig",
+    "content": "Wir erfassen, speichern oder teilen keinerlei persönliche Daten. Alles, was Sie erstellen, bleibt in Ihrem Browser. Wir haben keine Benutzerkonten, keine Datenbanken mit persönlichen Daten und kein Tracking. Ihre Privatsphäre in dieser sensiblen Zeit hat für uns höchste Priorität."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "content": "Wenn Sie Fragen, Anregungen oder Unterstützung benötigen, erreichen Sie uns unter",
+    "email": "support@eternaltribute.com",
+    "closing": "Wir sind für Sie da."
+  },
+  "ctaButton": "Nachruf erstellen"
+}

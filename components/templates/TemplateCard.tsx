@@ -1,11 +1,16 @@
-import Link from "next/link";
+"use client";
+
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Template, CATEGORY_LABELS, STYLE_LABELS, VISUAL_THEMES } from "@/lib/types";
+import { Template, VISUAL_THEMES } from "@/lib/types";
 import { getTemplateTheme } from "@/lib/templates/theme-map";
 import { VisualPreview } from "./VisualPreview";
 
 export function TemplateCard({ template }: { template: Template }) {
+  const t = useTranslations("templates");
+  const te = useTranslations("enums");
   const themeId = getTemplateTheme(template.id);
   const theme = VISUAL_THEMES[themeId];
 
@@ -33,10 +38,10 @@ export function TemplateCard({ template }: { template: Template }) {
       <div className="p-4">
         <div className="mb-2 flex flex-wrap gap-1.5">
           <Badge variant="secondary" className="text-xs">
-            For {CATEGORY_LABELS[template.category]}
+            {t("card.forLabel", { category: te(`category.${template.category}`) })}
           </Badge>
           <Badge variant="outline" className="text-xs">
-            {STYLE_LABELS[template.style]}
+            {te(`style.${template.style}`)}
           </Badge>
         </div>
         <h3 className="mb-1 font-serif text-base font-semibold text-primary">
@@ -47,10 +52,10 @@ export function TemplateCard({ template }: { template: Template }) {
         </p>
         <div className="flex gap-2">
           <Button variant="outline" size="sm" className="flex-1" asChild>
-            <Link href={`/templates/${template.id}`}>Preview</Link>
+            <Link href={`/templates/${template.id}` as any}>{t("card.preview")}</Link>
           </Button>
           <Button size="sm" className="flex-1" asChild>
-            <Link href={`/editor/${template.id}`}>Use Template</Link>
+            <Link href={`/editor/${template.id}` as any}>{t("card.useTemplate")}</Link>
           </Button>
         </div>
       </div>

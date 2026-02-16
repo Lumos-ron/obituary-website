@@ -1,0 +1,65 @@
+{
+  "category": {
+    "mother": "Mutter",
+    "father": "Vater",
+    "spouse": "Ehepartner",
+    "grandparent": "Großelternteil",
+    "sibling": "Geschwister",
+    "friend": "Freund/Freundin",
+    "child": "Kind",
+    "general": "Allgemein"
+  },
+  "style": {
+    "traditional": "Traditionell",
+    "modern": "Modern",
+    "heartfelt": "Herzlich",
+    "simple": "Schlicht",
+    "religious": "Religiös"
+  },
+  "length": {
+    "short": "Kurz (100–150 Wörter)",
+    "standard": "Standard (200–300 Wörter)",
+    "detailed": "Ausführlich (400+ Wörter)"
+  },
+  "hobby": {
+    "reading": "Lesen",
+    "gardening": "Gartenarbeit",
+    "traveling": "Reisen",
+    "music": "Musik",
+    "sports": "Sport",
+    "cooking": "Kochen",
+    "fishing": "Angeln",
+    "photography": "Fotografie",
+    "painting": "Malen",
+    "volunteering": "Ehrenamt",
+    "dancing": "Tanzen",
+    "writing": "Schreiben"
+  },
+  "trait": {
+    "loving": "Liebevoll",
+    "kind": "Gütig",
+    "generous": "Großzügig",
+    "humorous": "Humorvoll",
+    "strong": "Stark",
+    "compassionate": "Mitfühlend",
+    "patient": "Geduldig",
+    "wise": "Weise",
+    "gentle": "Sanftmütig",
+    "faithful": "Glaubenstreu",
+    "resilient": "Widerstandsfähig",
+    "joyful": "Lebensfroh"
+  },
+  "familyRelationship": {
+    "spouse": "Ehepartner",
+    "son": "Sohn",
+    "daughter": "Tochter",
+    "brother": "Bruder",
+    "sister": "Schwester",
+    "grandchild": "Enkelkind",
+    "mother": "Mutter",
+    "father": "Vater",
+    "niece": "Nichte",
+    "nephew": "Neffe",
+    "friend": "Freund/Freundin"
+  }
+}

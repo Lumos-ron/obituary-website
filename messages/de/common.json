@@ -1,0 +1,34 @@
+{
+  "nav": {
+    "templates": "Vorlagen",
+    "create": "Erstellen",
+    "writingGuides": "Schreibratgeber",
+    "about": "Über uns",
+    "createObituary": "Nachruf erstellen",
+    "openMenu": "Menü öffnen"
+  },
+  "footer": {
+    "brandDescription": "Wir helfen Familien, ihre Angehörigen mit Würde und Anmut durch sorgfältig gestaltete Nachrufvorlagen zu ehren.",
+    "templates": "Vorlagen",
+    "resources": "Ressourcen",
+    "legal": "Rechtliches",
+    "motherObituary": "Nachruf für Mutter",
+    "fatherObituary": "Nachruf für Vater",
+    "spouseObituary": "Nachruf für Ehepartner",
+    "grandparentObituary": "Nachruf für Großelternteil",
+    "generalObituary": "Allgemeiner Nachruf",
+    "writingGuides": "Schreibratgeber",
+    "obituaryCreator": "Nachruf-Ersteller",
+    "allTemplates": "Alle Vorlagen",
+    "aboutUs": "Über uns",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen",
+    "copyright": "© {year} EternalTribute. Alle Rechte vorbehalten. Mit Mitgefühl erstellt, um Familien in schweren Zeiten zu helfen."
+  },
+  "language": {
+    "switchLanguage": "Sprache",
+    "en": "English",
+    "de": "Deutsch",
+    "ja": "日本語"
+  }
+}

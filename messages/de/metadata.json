@@ -1,0 +1,35 @@
+{
+  "home": {
+    "title": "Kostenlose Nachrufvorlagen | Würdevolle Gedenkseiten online erstellen",
+    "description": "Erstellen Sie bedeutungsvolle Nachrufe mit unseren kostenlosen Vorlagen. Wählen Sie aus traditionellen, modernen und herzlichen Designs. Herunterladen als Word, PDF oder online teilen.",
+    "ogTitle": "Kostenlose Nachrufvorlagen | Würdevolle Gedenkseiten online erstellen",
+    "ogDescription": "Erstellen Sie bedeutungsvolle Nachrufe mit unseren kostenlosen Vorlagen. Wählen Sie aus traditionellen, modernen und herzlichen Designs."
+  },
+  "templates": {
+    "title": "Kostenlose Nachrufvorlagen",
+    "description": "Durchsuchen Sie unsere Sammlung kostenloser Nachrufvorlagen für jede Beziehung und jeden Stil."
+  },
+  "create": {
+    "title": "Nachruf erstellen",
+    "description": "Erstellen Sie Schritt für Schritt einen personalisierten Nachruf mit unserem kostenlosen Online-Tool."
+  },
+  "guides": {
+    "title": "Ratgeber zum Verfassen von Nachrufen",
+    "description": "Hilfreiche Ressourcen, die Sie beim Schreiben eines bedeutungsvollen Nachrufs begleiten."
+  },
+  "about": {
+    "title": "Über uns",
+    "description": "Erfahren Sie mehr über EternalTribute und unsere Mission, Familien bei der Ehrung ihrer Angehörigen zu unterstützen."
+  },
+  "privacy": {
+    "title": "Datenschutzrichtlinie",
+    "description": "EternalTribute Datenschutzrichtlinie — wie wir mit Ihren Daten umgehen."
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "description": "EternalTribute Nutzungsbedingungen und Nutzungsrichtlinien."
+  },
+  "categoryTitle": "Kostenlose Nachrufvorlagen für {category}",
+  "categoryDescription": "Durchsuchen Sie unsere Sammlung kostenloser Nachrufvorlagen für {category}. Wählen Sie zwischen traditionellen, modernen, herzlichen und religiösen Stilen.",
+  "templateTitle": "{title} – Kostenlose Nachrufvorlage"
+}

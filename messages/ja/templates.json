@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "無料の追悼文テンプレート",
+    "description": "あらゆる続柄やスタイルに対応した無料の追悼文テンプレートコレクションをご覧ください。"
+  },
+  "page": {
+    "title": "追悼文テンプレート",
+    "subtitle": "大切な方を偲ぶための最適なテンプレートを見つけましょう。すべてのテンプレートは無料でご利用・カスタマイズいただけます。"
+  },
+  "filters": {
+    "relationship": "続柄",
+    "style": "スタイル",
+    "length": "文章量",
+    "all": "すべて",
+    "sortBy": "並び替え：",
+    "mostPopular": "人気順",
+    "newest": "新着順",
+    "byCategory": "カテゴリ別"
+  },
+  "results": {
+    "showing": "{count} 件のテンプレートを表示中",
+    "noResults": "条件に一致するテンプレートが見つかりません。フィルターを変更してお試しください。"
+  },
+  "card": {
+    "forLabel": "{category}向け",
+    "preview": "プレビュー",
+    "useTemplate": "このテンプレートを使う",
+    "words": "{count} 語"
+  },
+  "categoryPage": {
+    "title": "無料の{category}追悼文テンプレート",
+    "description": "{category}向けの無料追悼文テンプレートコレクションをご覧ください。伝統的、モダン、心のこもった、宗教的なスタイルからお選びいただけます。"
+  },
+  "detail": {
+    "backToTemplates": "← テンプレート一覧に戻る",
+    "forCategory": "{category}向け",
+    "styleLabel": "スタイル：{style}",
+    "samplePreview": "サンプルプレビュー",
+    "useThisTemplate": "このテンプレートを使う",
+    "orCreateFromScratch": "または一から作成する",
+    "relatedTemplates": "関連テンプレート",
+    "themeLabel": "テーマ：{theme}",
+    "themeNote": "テーマはエディタで変更できます"
+  }
+}

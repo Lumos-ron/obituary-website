@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "title": "Obituary Writing Guides",
+    "description": "Helpful resources to guide you through writing a meaningful obituary."
+  },
+  "page": {
+    "title": "Obituary Writing Guides",
+    "subtitle": "Helpful resources to guide you through writing a meaningful obituary, understanding funeral etiquette, and honoring your loved one."
+  },
+  "card": {
+    "readingTime": "{minutes} min read"
+  },
+  "detail": {
+    "backToGuides": "← Back to Guides",
+    "ctaTitle": "Ready to Write an Obituary?",
+    "ctaDescription": "Use our free tools to create a beautiful tribute for your loved one.",
+    "createButton": "Create an Obituary",
+    "browseButton": "Browse Templates"
+  },
+  "readMore": "Read More →",
+  "backToGuides": "← Back to Guides",
+  "relatedGuides": "Related Guides"
+}

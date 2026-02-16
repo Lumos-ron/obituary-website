@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "title": "追悼文の書き方ガイド",
+    "description": "心のこもった追悼文を書くためのお役立ちリソースです。"
+  },
+  "page": {
+    "title": "追悼文の書き方ガイド",
+    "subtitle": "心のこもった追悼文の書き方、葬儀のマナー、大切な方を偲ぶ方法について、お役立ちリソースをまとめています。"
+  },
+  "card": {
+    "readingTime": "読了時間 {minutes} 分"
+  },
+  "detail": {
+    "backToGuides": "← ガイド一覧に戻る",
+    "ctaTitle": "追悼文を書く準備はできましたか？",
+    "ctaDescription": "無料ツールを使って、大切な方への美しい追悼文を作成しましょう。",
+    "createButton": "追悼文を作成する",
+    "browseButton": "テンプレートを見る"
+  },
+  "readMore": "続きを読む →",
+  "backToGuides": "← ガイド一覧に戻る",
+  "relatedGuides": "関連ガイド"
+}

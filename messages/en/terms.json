@@ -1,0 +1,40 @@
+{
+  "title": "Terms of Service",
+  "lastUpdated": "Last updated: January 2025",
+  "acceptance": {
+    "title": "Acceptance of Terms",
+    "content": "By accessing and using EternalTribute, you agree to these Terms of Service. If you do not agree, please do not use our website."
+  },
+  "useOfService": {
+    "title": "Use of Service",
+    "content": "EternalTribute provides free obituary templates and creation tools. You may use these templates for personal, non-commercial purposes to create obituaries for yourself or on behalf of family members."
+  },
+  "ownership": {
+    "title": "Content Ownership",
+    "content": "The obituary content you create using our tools belongs to you. Our templates and website design remain the property of EternalTribute. You are free to use, modify, and distribute the obituaries you create."
+  },
+  "noWarranty": {
+    "title": "No Warranty",
+    "content": "Our service is provided \"as is\" without warranties of any kind. While we strive to provide accurate templates and reliable tools, we cannot guarantee that the service will be error-free or uninterrupted."
+  },
+  "liability": {
+    "title": "Limitation of Liability",
+    "content": "EternalTribute shall not be liable for any damages arising from your use of the service. You are responsible for reviewing and verifying any obituary content before publication or distribution."
+  },
+  "prohibited": {
+    "title": "Prohibited Uses",
+    "intro": "You agree not to:",
+    "items": {
+      "unlawful": "Use the service for any unlawful purpose",
+      "false": "Create false or misleading obituaries",
+      "disrupt": "Attempt to disrupt or damage the website",
+      "scrape": "Scrape or collect data from the website"
+    }
+  },
+  "changes": {
+    "title": "Changes to Terms",
+    "content": "We reserve the right to modify these terms at any time. Continued use of the website after changes constitutes acceptance of the new terms."
+  },
+  "contactTitle": "Contact",
+  "contactContent": "For questions about these terms, contact us at support@eternaltribute.com."
+}
